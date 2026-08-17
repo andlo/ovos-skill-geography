@@ -53,6 +53,22 @@ ARTICLE_PREFIXES = {
     "es-es": ["el ", "la ", "los ", "las "],
 }
 
+
+def strip_article(raw, lang):
+    """Strips a common leading article a spoken country name may
+    carry in some languages ('la France', 'die Türkei', 'el Perú')
+    but that isn't part of the stored CLDR name itself. A pragmatic
+    simplification, not full grammatical parsing - see DEVELOPMENT.md.
+    Defined early (before the data-loading below) since the region/
+    subregion reverse-lookup construction needs it immediately."""
+    lang = lang.lower()
+    raw = raw.strip()
+    lower = raw.lower()
+    for prefix in ARTICLE_PREFIXES.get(lang, []):
+        if lower.startswith(prefix):
+            return raw[len(prefix):].strip()
+    return raw
+
 def _load_core_data():
     """data/countries.json -> {cca3: {cca3, cca2, capital, region,
     subregion, borders, area, currencies (codes), languages (codes)}}."""
@@ -100,7 +116,20 @@ def _reverse_lookup(name_dict):
     return {name.strip().lower(): code for code, name in name_dict.items()}
 
 
+def _reverse_lookup_article_stripped(name_dict, lang):
+    """Like _reverse_lookup(), but also strips a leading article from
+    the STORED name before using it as a key - region/subregion names
+    for fr-fr/es-es bake the article in for natural speech output
+    (e.g. "l'Europe", not "Europe"), unlike country names which are
+    always bare. Without this, resolve_area() stripping the incoming
+    query's article would never match the stored key. Applied to both
+    sides so "Europe" and "l'Europe" both resolve the same way."""
+    return {strip_article(name, lang).strip().lower(): code for code, name in name_dict.items()}
+
+
 COUNTRY_NAME_TO_CODE = {lang: _reverse_lookup(names) for lang, names in COUNTRY_NAMES.items()}
+REGION_NAME_TO_KEY = {lang: _reverse_lookup_article_stripped(names, lang) for lang, names in REGION_NAMES.items()}
+SUBREGION_NAME_TO_KEY = {lang: _reverse_lookup_article_stripped(names, lang) for lang, names in SUBREGION_NAMES.items()}
 
 # ---------------------------------------------------------------
 # Public, reusable lookup functions - plain functions (not skill
@@ -110,20 +139,6 @@ COUNTRY_NAME_TO_CODE = {lang: _reverse_lookup(names) for lang, names in COUNTRY_
 # actual dependency surface, same relationship
 # ovos-skill-unit-practice has with ovos-skill-convert.
 # ---------------------------------------------------------------
-
-def strip_article(raw, lang):
-    """Strips a common leading article a spoken country name may
-    carry in some languages ('la France', 'die Türkei', 'el Perú')
-    but that isn't part of the stored CLDR name itself. A pragmatic
-    simplification, not full grammatical parsing - see DEVELOPMENT.md."""
-    lang = lang.lower()
-    raw = raw.strip()
-    lower = raw.lower()
-    for prefix in ARTICLE_PREFIXES.get(lang, []):
-        if lower.startswith(prefix):
-            return raw[len(prefix):].strip()
-    return raw
-
 
 def resolve_country(raw, lang):
     """Exact match only (after stripping a leading article) - a wrong
@@ -179,6 +194,51 @@ def language_names_for(cca3, lang):
     names = LANGUAGE_NAMES.get(lang) or LANGUAGE_NAMES.get("en-us", {})
     codes = CORE_DATA.get(cca3, {}).get("languages", [])
     return [names.get(code, code) for code in codes]
+
+
+def resolve_area(raw, lang):
+    """Resolves a spoken region OR subregion name (e.g. 'Europe' or
+    'Northern Europe') to ('region', key) or ('subregion', key), or
+    None if not recognized. Tries region names first (the 5 top-level
+    continents), then subregions (the 23 finer-grained ones) - a name
+    can't be both, so order only matters for which error path an
+    unrecognized name falls through, not for correctness."""
+    if not raw:
+        return None
+    lang = lang.lower()
+    stripped = strip_article(raw, lang).strip().lower()
+    region_lookup = REGION_NAME_TO_KEY.get(lang) or REGION_NAME_TO_KEY.get("en-us", {})
+    if stripped in region_lookup:
+        return ("region", region_lookup[stripped])
+    subregion_lookup = SUBREGION_NAME_TO_KEY.get(lang) or SUBREGION_NAME_TO_KEY.get("en-us", {})
+    if stripped in subregion_lookup:
+        return ("subregion", subregion_lookup[stripped])
+    return None
+
+
+def countries_in_area(kind, key):
+    """kind: 'region' or 'subregion' (as returned by resolve_area()).
+    Returns every cca3 code whose CORE_DATA[cca3][kind] == key."""
+    return [cca3 for cca3, c in CORE_DATA.items() if c[kind] == key]
+
+
+def render_country_overview(cca3, lang):
+    """Builds the combined 'X is on the Y continent, with capital Z,
+    and borders A, B, C' sentence used by both the 'tell me about
+    {country}' fact intent here AND ovos-skill-geography-practice's
+    teach mode - one sentence-builder, not two independently drifting
+    copies. Returns (dialog_name, data) rather than speaking directly,
+    since the two callers use different OVOSSkill instances."""
+    lang = lang.lower()
+    name = country_name(cca3, lang)
+    continent = region_name(CORE_DATA[cca3]["region"], lang)
+    entry = capital_entry(cca3, lang)
+    capital = entry["primary"] if entry else "?"
+    borders = CORE_DATA[cca3]["borders"]
+    if borders:
+        countries = ", ".join(country_name(b, lang) for b in borders)
+        return "about_country", {"country": name, "continent": continent, "capital": capital, "countries": countries}
+    return "about_country_no_borders", {"country": name, "continent": continent, "capital": capital}
 
 
 class Geography(OVOSSkill):
@@ -267,3 +327,17 @@ class Geography(OVOSSkill):
             self.speak_dialog("language_of_unknown", {"country": name})
             return
         self.speak_dialog("language_of", {"country": name, "languages": ", ".join(languages)})
+
+    @intent_handler("about_country.intent")
+    def handle_about_country(self, message):
+        """'tell me about France' - the combined continent+capital+
+        borders overview, one sentence. Shares render_country_overview()
+        with ovos-skill-geography-practice's teach mode rather than
+        each maintaining its own copy of the same sentence-builder."""
+        country_raw = message.data.get("country")
+        cca3 = resolve_country(country_raw, self.lang)
+        if cca3 is None:
+            self.speak_dialog("country_not_understood", {"country": country_raw or ""})
+            return
+        dialog_name, data = render_country_overview(cca3, self.lang)
+        self.speak_dialog(dialog_name, data)

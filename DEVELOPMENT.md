@@ -145,3 +145,25 @@ setup on PyPI before the first tagged release).
 - `locale/<lang-code>/` layout, `skill.json` inside each locale
   folder.
 - Present design changes for review before implementing.
+
+**Region/subregion resolution for teach mode.** `resolve_area(raw,
+lang)` resolves a spoken region OR subregion name to `("region", key)`
+/ `("subregion", key)`, and `countries_in_area(kind, key)` returns
+every country code in it - added specifically so
+`ovos-skill-geography-practice`'s teach mode ("teach me about
+Europe") can pull a country list without duplicating region-name
+resolution. Note: fr-fr/es-es region/subregion names bake the article
+into the stored name itself (e.g. "l'Europe", for natural speech
+output), unlike country names which are always bare - both the
+stored name AND the incoming query are run through `strip_article()`
+before comparison, so "Europe" and "l'Europe" both resolve correctly
+(see `_reverse_lookup_article_stripped()`; this bit a first version
+of the tests before being caught and fixed).
+
+**`render_country_overview(cca3, lang)`** builds the combined
+"X is on the Y continent, with capital Z, and borders A, B, C"
+sentence used by both this package's own `about_country.intent` AND
+geography-practice's teach mode - one sentence-builder, not two
+independently-drifting copies. Returns `(dialog_name, data)` rather
+than speaking directly, since the two callers are different OVOSSkill
+instances with their own `speak_dialog()`.

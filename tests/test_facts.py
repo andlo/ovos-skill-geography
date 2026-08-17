@@ -87,3 +87,19 @@ def test_language_of_unknown_country(skill):
     skill.handle_language_of(_msg(country="Narnia"))
     skill.speak_dialog.assert_called_once_with(
         "country_not_understood", {"country": "Narnia"})
+
+
+def test_about_country_known_country(skill):
+    skill.speak_dialog = MagicMock()
+    skill.handle_about_country(_msg(country="France"))
+    dialog_name, data = skill.speak_dialog.call_args[0]
+    assert dialog_name == "about_country"
+    assert data["country"] == "France"
+    assert data["capital"] == "Paris"
+
+
+def test_about_country_unknown_country(skill):
+    skill.speak_dialog = MagicMock()
+    skill.handle_about_country(_msg(country="Narnia"))
+    skill.speak_dialog.assert_called_once_with(
+        "country_not_understood", {"country": "Narnia"})

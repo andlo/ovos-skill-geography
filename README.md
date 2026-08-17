@@ -28,6 +28,10 @@ French, and Spanish.
 - `"what currency does Japan use"`
 - `"what language do they speak in Egypt"` - handles countries with
   multiple official languages.
+- `"tell me about Afghanistan"` - a combined overview in one sentence
+  (continent, capital, and borders together) - shares its
+  sentence-builder with `ovos-skill-geography-practice`'s teach mode,
+  see DEVELOPMENT.md.
 
 ## Usage
 ```
