@@ -30,18 +30,25 @@ ovos-skill-unit-practice has with ovos-skill-convert. Module-level
 data (CORE_DATA, COUNTRY_NAMES, etc) and helper functions are the
 public API sibling skills import; see README.md and DEVELOPMENT.md.
 
-Not a Common Query skill: deliberately uses fixed Padatious intents,
-not CommonQuerySkill, so this package's own curated offline dataset
-is always authoritative for its own domain rather than competing on
-confidence score against online sources (e.g. Wolfram Alpha) for the
-same question. See DEVELOPMENT.md for the reasoning.
+Fixed Padatious intents are the primary path, so this package's own
+curated offline dataset is authoritative for its own domain rather
+than competing on confidence score against online sources (e.g.
+Wolfram Alpha) for the same question - see DEVELOPMENT.md. A narrow
+@common_query safety net (handle_common_query()) exists ALONGSIDE the
+intents, not instead of them: live testing found that a platform-
+level semantic router (ovos-m2v-pipeline-high) can intercept a
+well-formed question before this skill's own Padatious intent gets a
+chance, on installations where pipeline confidence tuning differs
+from ours - a skill can't ship or control that per-instance config,
+so Common Query participation is the portable fallback. See
+DEVELOPMENT.md "Common Query as a safety net, not a replacement".
 """
 
 import json
 from pathlib import Path
 
 from ovos_workshop.skills import OVOSSkill
-from ovos_workshop.decorators import intent_handler
+from ovos_workshop.decorators import intent_handler, common_query
 
 SKILL_ROOT = Path(__file__).resolve().parent
 DATA_DIR = SKILL_ROOT / "data"
@@ -241,10 +248,117 @@ def render_country_overview(cca3, lang):
     return "about_country_no_borders", {"country": name, "continent": continent, "capital": capital}
 
 
+# ---------------------------------------------------------------
+# Common Query safety net - see DEVELOPMENT.md "Common Query as a
+# safety net, not a replacement". Deliberately narrow: only the
+# three simplest single-entity facts (capital, continent, the
+# combined "about" overview) - NOT area/currency/language/borders,
+# whose phrasing is distinctive enough that a generic semantic
+# router is unlikely to misclassify them as bare trivia questions
+# the way "what is the capital of X" gets misclassified.
+# ---------------------------------------------------------------
+CQ_PATTERNS = {
+    "en-us": [
+        ("what is the capital of ", "", "capital"),
+        ("what's the capital of ", "", "capital"),
+        ("what continent is ", " in", "continent"),
+        ("what region is ", " in", "continent"),
+        ("tell me about ", "", "about"),
+        ("what do you know about ", "", "about"),
+    ],
+    "da-dk": [
+        ("hvad er hovedstaden i ", "", "capital"),
+        ("hvad hedder hovedstaden i ", "", "capital"),
+        ("hvilket kontinent er ", " i", "continent"),
+        ("hvilken verdensdel er ", " i", "continent"),
+        ("fortæl mig om ", "", "about"),
+        ("hvad ved du om ", "", "about"),
+    ],
+    "de-de": [
+        ("was ist die hauptstadt von ", "", "capital"),
+        ("wie heißt die hauptstadt von ", "", "capital"),
+        ("auf welchem kontinent liegt ", "", "continent"),
+        ("in welchem kontinent liegt ", "", "continent"),
+        ("erzähl mir etwas über ", "", "about"),
+        ("was weißt du über ", "", "about"),
+    ],
+    "fr-fr": [
+        ("quelle est la capitale de ", "", "capital"),
+        ("quelle est la capitale du ", "", "capital"),
+        ("sur quel continent se trouve ", "", "continent"),
+        ("dans quel continent se trouve ", "", "continent"),
+        ("parle-moi de ", "", "about"),
+        ("que sais-tu sur ", "", "about"),
+    ],
+    "es-es": [
+        ("cuál es la capital de ", "", "capital"),
+        ("cuál es la capital del ", "", "capital"),
+        ("en qué continente está ", "", "continent"),
+        ("en qué continente se encuentra ", "", "continent"),
+        ("háblame de ", "", "about"),
+        ("qué sabes sobre ", "", "about"),
+    ],
+}
+
+
+def _match_cq_pattern(phrase, lang):
+    """Returns (country_raw, kind) if phrase matches one of our
+    prefix[...suffix] patterns for this language, else (None, None).
+    Deliberately simple substring matching, not full NLU - a safety
+    net for cases the platform's own routing failed to hand us
+    properly, not a second implementation of intent parsing."""
+    lang = lang.lower()
+    stripped = phrase.strip().rstrip("?").strip()
+    lower = stripped.lower()
+    for prefix, suffix, kind in CQ_PATTERNS.get(lang, []):
+        if lower.startswith(prefix) and (not suffix or lower.endswith(suffix)):
+            end = len(stripped) - len(suffix) if suffix else len(stripped)
+            country_raw = stripped[len(prefix):end].strip()
+            if country_raw:
+                return country_raw, kind
+    return None, None
+
+
 class Geography(OVOSSkill):
     """Thin wrapper around the module-level lookup functions above -
     each handler just resolves the country slot and speaks a dialog.
     All the actual logic is in the reusable functions, not here."""
+
+    @common_query()
+    def handle_common_query(self, phrase, lang):
+        """Safety net for when the platform's own routing (e.g. a
+        semantic classifier like ovos-m2v-pipeline-high) sends a
+        well-formed question to Common Query BEFORE our own
+        Padatious intents get a chance - discovered via live testing,
+        not assumed. Reuses the SAME dialog files the real intents
+        use (via self.resources.load_dialog_file()), so the answer
+        text is identical either way - one wording, not two."""
+        country_raw, kind = _match_cq_pattern(phrase, lang)
+        if country_raw is None:
+            return None
+        cca3 = resolve_country(country_raw, lang)
+        if cca3 is None:
+            return None
+        name = country_name(cca3, lang)
+
+        if kind == "capital":
+            entry = capital_entry(cca3, lang)
+            if not entry:
+                return None
+            if len(entry["all"]) > 1:
+                answer = self.resources.load_dialog_file(
+                    "capital_of_multi", {"country": name, "capitals": ", ".join(entry["all"])})[0]
+            else:
+                answer = self.resources.load_dialog_file(
+                    "capital_of", {"country": name, "capital": entry["primary"]})[0]
+        elif kind == "continent":
+            answer = self.resources.load_dialog_file(
+                "continent_of", {"country": name, "continent": region_name(CORE_DATA[cca3]["region"], lang)})[0]
+        else:  # "about"
+            dialog_name, data = render_country_overview(cca3, lang)
+            answer = self.resources.load_dialog_file(dialog_name, data)[0]
+
+        return answer, 0.8
 
     @intent_handler("capital_of.intent")
     def handle_capital_of(self, message):

@@ -18,32 +18,55 @@ take `lang` explicitly rather than reading `self.lang`, so
 without needing an instance of this skill's class. Every intent
 handler is a thin wrapper around these.
 
-## Why fixed intents, not CommonQuerySkill
+## Why fixed intents are the primary path - and Common Query the safety net, not a replacement
 
 "What is the capital of France" LOOKS like a natural fit for OVOS's
 Common Query pipeline (multiple knowledge skills bid with a
 confidence score, best answer wins - used by Wolfram Alpha,
-Wikipedia, WordNet for genuinely open trivia questions). Considered
-and rejected for this package:
+Wikipedia, WordNet for genuinely open trivia questions). Fixed
+Padatious intents are still the primary path here:
 
 - The phrasing here is bounded and predictable (a natural fit for a
   fixed Padatious template with a `{country}` slot), not the kind of
   wildly-varied open trivia phrasing Common Query is designed for.
 - This package's curated, offline, verified dataset should be
-  AUTHORITATIVE for its own domain - fixed intents run before Common
-  Query in the OVOS pipeline and always win deterministically, rather
-  than this package's accurate offline answer possibly losing a
-  confidence race to an online source's (e.g. Wolfram Alpha's, which
-  requires an API key and internet) answer to the same question.
+  AUTHORITATIVE for its own domain - a fixed intent match is
+  deterministic in a way a confidence-scored bid against Wolfram
+  Alpha or Wikipedia isn't.
 - Matches the precedent of `ovos-skill-convert`/`ovos-skill-tuning-fork`/
   `ovos-skill-nato-alphabet`/`ovos-skill-morse-code` - none of the
   existing "authoritative reference" utility skills in this project
-  family use Common Query either.
+  family use Common Query as their PRIMARY path either.
 
-Worth revisiting if broader phrasing coverage becomes a real need -
-Common Query as a FALLBACK behind the fixed intents (not a
-replacement) would be the way to do that without giving up
-determinism for the phrasings we do cover.
+**Revised, from live testing on real hardware, not just reading
+code:** the original version of this section claimed fixed intents
+"run before Common Query and always win deterministically" - that
+turned out to be incomplete. It's only true for utterances that clear
+`ovos-padatious-pipeline-plugin-high`'s confidence threshold (0.95 by
+default); anything below that falls through to whatever pipeline
+stage is configured NEXT on that specific instance, which is
+per-instance config a skill can't ship or control. On live testing,
+`ovos-m2v-pipeline-high` (a semantic classifier that recognizes
+question-shaped utterances and routes them to Common Query) sits
+between `padatious-high` and `padatious-medium` in a stock-ish
+pipeline config, and confidently intercepted "what is the capital of
+France" before this package's own medium-confidence Padatious match
+ever ran - Common Query then answered from an unrelated source.
+
+Reordering the LOCAL pipeline config fixes it for one machine, but
+doesn't help anyone installing this skill elsewhere with whatever
+pipeline ordering THEIR instance has. The portable fix, implemented
+now rather than left as a "worth revisiting" note: also register as
+a Common Query participant (`@common_query`-decorated
+`handle_common_query()`), deliberately narrow (capital/continent/
+"about" only - not area/currency/language/borders, whose phrasing is
+distinctive enough that a generic semantic router is unlikely to
+misclassify it the same way), reusing the SAME dialog files the real
+intents use via `self.resources.load_dialog_file()` so there's one
+wording, not two. `_match_cq_pattern()` is deliberately simple
+substring matching against a small per-language pattern list, not
+full NLU - a safety net for cases the platform's own routing failed
+to hand us properly, not a second implementation of intent parsing.
 
 ## The data pipeline (data/build_data.py)
 

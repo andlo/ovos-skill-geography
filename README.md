@@ -59,11 +59,13 @@ depends on this package directly (imports its data and lookup
 functions) for its quiz mode, the same relationship
 `ovos-skill-unit-practice` has with `ovos-skill-convert`.
 
-Deliberately uses fixed intents, not a `CommonQuerySkill` - this
-package's curated offline dataset should always be authoritative for
-its own domain, not compete on a confidence score against online
-knowledge skills (e.g. Wolfram Alpha) for the same question. See
-DEVELOPMENT.md for the full reasoning.
+Fixed intents are the primary path - this package's curated offline
+dataset should always be authoritative for its own domain, not
+compete on a confidence score against online knowledge skills (e.g.
+Wolfram Alpha) for the same question. A narrow Common Query safety
+net also exists (`handle_common_query()`) for when the platform's
+own routing sends a question elsewhere before our intent gets a
+chance - found via live testing, see DEVELOPMENT.md.
 
 ## Data sourcing and licensing
 
