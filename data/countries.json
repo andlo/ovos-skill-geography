@@ -1,0 +1,4226 @@
+[
+  {
+    "cca3": "AFG",
+    "cca2": "AF",
+    "capital": [
+      "Kabul"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [
+      "IRN",
+      "PAK",
+      "TKM",
+      "UZB",
+      "TJK",
+      "CHN"
+    ],
+    "area": 652230,
+    "currencies": [
+      "AFN"
+    ],
+    "languages": [
+      "prs",
+      "pus",
+      "tuk"
+    ]
+  },
+  {
+    "cca3": "AGO",
+    "cca2": "AO",
+    "capital": [
+      "Luanda"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "COG",
+      "COD",
+      "ZMB",
+      "NAM"
+    ],
+    "area": 1246700,
+    "currencies": [
+      "AOA"
+    ],
+    "languages": [
+      "por"
+    ]
+  },
+  {
+    "cca3": "ALB",
+    "cca2": "AL",
+    "capital": [
+      "Tirana"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "borders": [
+      "MNE",
+      "GRC",
+      "MKD"
+    ],
+    "area": 28748,
+    "currencies": [
+      "ALL"
+    ],
+    "languages": [
+      "sqi"
+    ]
+  },
+  {
+    "cca3": "AND",
+    "cca2": "AD",
+    "capital": [
+      "Andorra la Vella"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [
+      "FRA",
+      "ESP"
+    ],
+    "area": 468,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "cat"
+    ]
+  },
+  {
+    "cca3": "ARE",
+    "cca2": "AE",
+    "capital": [
+      "Abu Dhabi"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "OMN",
+      "SAU"
+    ],
+    "area": 83600,
+    "currencies": [
+      "AED"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "ARG",
+    "cca2": "AR",
+    "capital": [
+      "Buenos Aires"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "PRY",
+      "URY"
+    ],
+    "area": 2780400,
+    "currencies": [
+      "ARS"
+    ],
+    "languages": [
+      "grn",
+      "spa"
+    ]
+  },
+  {
+    "cca3": "ARM",
+    "cca2": "AM",
+    "capital": [
+      "Yerevan"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "AZE",
+      "GEO",
+      "IRN",
+      "TUR"
+    ],
+    "area": 29743,
+    "currencies": [
+      "AMD"
+    ],
+    "languages": [
+      "hye"
+    ]
+  },
+  {
+    "cca3": "ATG",
+    "cca2": "AG",
+    "capital": [
+      "Saint John's"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 442,
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "AUS",
+    "cca2": "AU",
+    "capital": [
+      "Canberra"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "borders": [],
+    "area": 7692024,
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "AUT",
+    "cca2": "AT",
+    "capital": [
+      "Vienna"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "borders": [
+      "CZE",
+      "DEU",
+      "HUN",
+      "ITA",
+      "LIE",
+      "SVK",
+      "SVN",
+      "CHE"
+    ],
+    "area": 83871,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "bar"
+    ]
+  },
+  {
+    "cca3": "AZE",
+    "cca2": "AZ",
+    "capital": [
+      "Baku"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "ARM",
+      "GEO",
+      "IRN",
+      "RUS",
+      "TUR"
+    ],
+    "area": 86600,
+    "currencies": [
+      "AZN"
+    ],
+    "languages": [
+      "aze",
+      "rus"
+    ]
+  },
+  {
+    "cca3": "BDI",
+    "cca2": "BI",
+    "capital": [
+      "Gitega"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "COD",
+      "RWA",
+      "TZA"
+    ],
+    "area": 27834,
+    "currencies": [
+      "BIF"
+    ],
+    "languages": [
+      "fra",
+      "run"
+    ]
+  },
+  {
+    "cca3": "BEL",
+    "cca2": "BE",
+    "capital": [
+      "Brussels"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "borders": [
+      "FRA",
+      "DEU",
+      "LUX",
+      "NLD"
+    ],
+    "area": 30528,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "deu",
+      "fra",
+      "nld"
+    ]
+  },
+  {
+    "cca3": "BEN",
+    "cca2": "BJ",
+    "capital": [
+      "Porto-Novo"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "BFA",
+      "NER",
+      "NGA",
+      "TGO"
+    ],
+    "area": 112622,
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "BFA",
+    "cca2": "BF",
+    "capital": [
+      "Ouagadougou"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "BEN",
+      "CIV",
+      "GHA",
+      "MLI",
+      "NER",
+      "TGO"
+    ],
+    "area": 272967,
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "BGD",
+    "cca2": "BD",
+    "capital": [
+      "Dhaka"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [
+      "MMR",
+      "IND"
+    ],
+    "area": 147570,
+    "currencies": [
+      "BDT"
+    ],
+    "languages": [
+      "ben"
+    ]
+  },
+  {
+    "cca3": "BGR",
+    "cca2": "BG",
+    "capital": [
+      "Sofia"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "borders": [
+      "GRC",
+      "MKD",
+      "ROU",
+      "SRB",
+      "TUR"
+    ],
+    "area": 110879,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "bul"
+    ]
+  },
+  {
+    "cca3": "BHR",
+    "cca2": "BH",
+    "capital": [
+      "Manama"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [],
+    "area": 765,
+    "currencies": [
+      "BHD"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "BHS",
+    "cca2": "BS",
+    "capital": [
+      "Nassau"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 13943,
+    "currencies": [
+      "BSD",
+      "USD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "BIH",
+    "cca2": "BA",
+    "capital": [
+      "Sarajevo"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "borders": [
+      "HRV",
+      "MNE",
+      "SRB"
+    ],
+    "area": 51209,
+    "currencies": [
+      "BAM"
+    ],
+    "languages": [
+      "bos",
+      "hrv",
+      "srp"
+    ]
+  },
+  {
+    "cca3": "BLR",
+    "cca2": "BY",
+    "capital": [
+      "Minsk"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "borders": [
+      "LVA",
+      "LTU",
+      "POL",
+      "RUS",
+      "UKR"
+    ],
+    "area": 207600,
+    "currencies": [
+      "BYN"
+    ],
+    "languages": [
+      "bel",
+      "rus"
+    ]
+  },
+  {
+    "cca3": "BLZ",
+    "cca2": "BZ",
+    "capital": [
+      "Belmopan"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "borders": [
+      "GTM",
+      "MEX"
+    ],
+    "area": 22966,
+    "currencies": [
+      "BZD"
+    ],
+    "languages": [
+      "bjz",
+      "eng",
+      "spa"
+    ]
+  },
+  {
+    "cca3": "BOL",
+    "cca2": "BO",
+    "capital": [
+      "Sucre"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "ARG",
+      "BRA",
+      "CHL",
+      "PRY",
+      "PER"
+    ],
+    "area": 1098581,
+    "currencies": [
+      "BOB"
+    ],
+    "languages": [
+      "aym",
+      "grn",
+      "que",
+      "spa"
+    ]
+  },
+  {
+    "cca3": "BRA",
+    "cca2": "BR",
+    "capital": [
+      "Brasília"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "ARG",
+      "BOL",
+      "COL",
+      "GUY",
+      "PRY",
+      "PER",
+      "SUR",
+      "URY",
+      "VEN"
+    ],
+    "area": 8515767,
+    "currencies": [
+      "BRL"
+    ],
+    "languages": [
+      "por"
+    ]
+  },
+  {
+    "cca3": "BRB",
+    "cca2": "BB",
+    "capital": [
+      "Bridgetown"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 430,
+    "currencies": [
+      "BBD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "BRN",
+    "cca2": "BN",
+    "capital": [
+      "Bandar Seri Begawan"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "MYS"
+    ],
+    "area": 5765,
+    "currencies": [
+      "BND",
+      "SGD"
+    ],
+    "languages": [
+      "msa"
+    ]
+  },
+  {
+    "cca3": "BTN",
+    "cca2": "BT",
+    "capital": [
+      "Thimphu"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [
+      "CHN",
+      "IND"
+    ],
+    "area": 38394,
+    "currencies": [
+      "BTN",
+      "INR"
+    ],
+    "languages": [
+      "dzo"
+    ]
+  },
+  {
+    "cca3": "BWA",
+    "cca2": "BW",
+    "capital": [
+      "Gaborone"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "borders": [
+      "NAM",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ],
+    "area": 582000,
+    "currencies": [
+      "BWP"
+    ],
+    "languages": [
+      "eng",
+      "tsn"
+    ]
+  },
+  {
+    "cca3": "CAF",
+    "cca2": "CF",
+    "capital": [
+      "Bangui"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "CMR",
+      "TCD",
+      "COD",
+      "COG",
+      "SSD",
+      "SDN"
+    ],
+    "area": 622984,
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "fra",
+      "sag"
+    ]
+  },
+  {
+    "cca3": "CAN",
+    "cca2": "CA",
+    "capital": [
+      "Ottawa"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "borders": [
+      "USA"
+    ],
+    "area": 9984670,
+    "currencies": [
+      "CAD"
+    ],
+    "languages": [
+      "eng",
+      "fra"
+    ]
+  },
+  {
+    "cca3": "CHE",
+    "cca2": "CH",
+    "capital": [
+      "Bern"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "borders": [
+      "AUT",
+      "FRA",
+      "ITA",
+      "LIE",
+      "DEU"
+    ],
+    "area": 41284,
+    "currencies": [
+      "CHF"
+    ],
+    "languages": [
+      "fra",
+      "gsw",
+      "ita",
+      "roh"
+    ]
+  },
+  {
+    "cca3": "CHL",
+    "cca2": "CL",
+    "capital": [
+      "Santiago"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "ARG",
+      "BOL",
+      "PER"
+    ],
+    "area": 756102,
+    "currencies": [
+      "CLP"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "CHN",
+    "cca2": "CN",
+    "capital": [
+      "Beijing"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "borders": [
+      "AFG",
+      "BTN",
+      "MMR",
+      "IND",
+      "KAZ",
+      "NPL",
+      "PRK",
+      "KGZ",
+      "LAO",
+      "MNG",
+      "PAK",
+      "RUS",
+      "TJK",
+      "VNM"
+    ],
+    "area": 9706961,
+    "currencies": [
+      "CNY"
+    ],
+    "languages": [
+      "zho"
+    ]
+  },
+  {
+    "cca3": "CIV",
+    "cca2": "CI",
+    "capital": [
+      "Yamoussoukro"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "BFA",
+      "GHA",
+      "GIN",
+      "LBR",
+      "MLI"
+    ],
+    "area": 322463,
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "CMR",
+    "cca2": "CM",
+    "capital": [
+      "Yaoundé"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "CAF",
+      "TCD",
+      "COG",
+      "GNQ",
+      "GAB",
+      "NGA"
+    ],
+    "area": 475442,
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "eng",
+      "fra"
+    ]
+  },
+  {
+    "cca3": "COD",
+    "cca2": "CD",
+    "capital": [
+      "Kinshasa"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "AGO",
+      "BDI",
+      "CAF",
+      "COG",
+      "RWA",
+      "SSD",
+      "TZA",
+      "UGA",
+      "ZMB"
+    ],
+    "area": 2344858,
+    "currencies": [
+      "CDF"
+    ],
+    "languages": [
+      "fra",
+      "kon",
+      "lin",
+      "lua",
+      "swa"
+    ]
+  },
+  {
+    "cca3": "COG",
+    "cca2": "CG",
+    "capital": [
+      "Brazzaville"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "AGO",
+      "CMR",
+      "CAF",
+      "COD",
+      "GAB"
+    ],
+    "area": 342000,
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "fra",
+      "kon",
+      "lin"
+    ]
+  },
+  {
+    "cca3": "COL",
+    "cca2": "CO",
+    "capital": [
+      "Bogotá"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "BRA",
+      "ECU",
+      "PAN",
+      "PER",
+      "VEN"
+    ],
+    "area": 1141748,
+    "currencies": [
+      "COP"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "COM",
+    "cca2": "KM",
+    "capital": [
+      "Moroni"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [],
+    "area": 1862,
+    "currencies": [
+      "KMF"
+    ],
+    "languages": [
+      "ara",
+      "fra",
+      "zdj"
+    ]
+  },
+  {
+    "cca3": "CPV",
+    "cca2": "CV",
+    "capital": [
+      "Praia"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [],
+    "area": 4033,
+    "currencies": [
+      "CVE"
+    ],
+    "languages": [
+      "por"
+    ]
+  },
+  {
+    "cca3": "CRI",
+    "cca2": "CR",
+    "capital": [
+      "San José"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "borders": [
+      "NIC",
+      "PAN"
+    ],
+    "area": 51100,
+    "currencies": [
+      "CRC"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "CUB",
+    "cca2": "CU",
+    "capital": [
+      "Havana"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 109884,
+    "currencies": [
+      "CUC",
+      "CUP"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "CYP",
+    "cca2": "CY",
+    "capital": [
+      "Nicosia"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [],
+    "area": 9251,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ell",
+      "tur"
+    ]
+  },
+  {
+    "cca3": "CZE",
+    "cca2": "CZ",
+    "capital": [
+      "Prague"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "borders": [
+      "AUT",
+      "DEU",
+      "POL",
+      "SVK"
+    ],
+    "area": 78865,
+    "currencies": [
+      "CZK"
+    ],
+    "languages": [
+      "ces",
+      "slk"
+    ]
+  },
+  {
+    "cca3": "DEU",
+    "cca2": "DE",
+    "capital": [
+      "Berlin"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "borders": [
+      "AUT",
+      "BEL",
+      "CZE",
+      "DNK",
+      "FRA",
+      "LUX",
+      "NLD",
+      "POL",
+      "CHE"
+    ],
+    "area": 357114,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "deu"
+    ]
+  },
+  {
+    "cca3": "DJI",
+    "cca2": "DJ",
+    "capital": [
+      "Djibouti"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "ERI",
+      "ETH",
+      "SOM"
+    ],
+    "area": 23200,
+    "currencies": [
+      "DJF"
+    ],
+    "languages": [
+      "ara",
+      "fra"
+    ]
+  },
+  {
+    "cca3": "DMA",
+    "cca2": "DM",
+    "capital": [
+      "Roseau"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 751,
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "DNK",
+    "cca2": "DK",
+    "capital": [
+      "Copenhagen"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "DEU"
+    ],
+    "area": 43094,
+    "currencies": [
+      "DKK"
+    ],
+    "languages": [
+      "dan"
+    ]
+  },
+  {
+    "cca3": "DOM",
+    "cca2": "DO",
+    "capital": [
+      "Santo Domingo"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [
+      "HTI"
+    ],
+    "area": 48671,
+    "currencies": [
+      "DOP"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "DZA",
+    "cca2": "DZ",
+    "capital": [
+      "Algiers"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "borders": [
+      "TUN",
+      "LBY",
+      "NER",
+      "MRT",
+      "MLI",
+      "MAR"
+    ],
+    "area": 2381741,
+    "currencies": [
+      "DZD"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "ECU",
+    "cca2": "EC",
+    "capital": [
+      "Quito"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "COL",
+      "PER"
+    ],
+    "area": 276841,
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "EGY",
+    "cca2": "EG",
+    "capital": [
+      "Cairo"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "borders": [
+      "ISR",
+      "LBY",
+      "SDN"
+    ],
+    "area": 1002450,
+    "currencies": [
+      "EGP"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "ERI",
+    "cca2": "ER",
+    "capital": [
+      "Asmara"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "DJI",
+      "ETH",
+      "SDN"
+    ],
+    "area": 117600,
+    "currencies": [
+      "ERN"
+    ],
+    "languages": [
+      "ara",
+      "eng",
+      "tir"
+    ]
+  },
+  {
+    "cca3": "ESP",
+    "cca2": "ES",
+    "capital": [
+      "Madrid"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [
+      "AND",
+      "FRA",
+      "PRT",
+      "MAR"
+    ],
+    "area": 505992,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "EST",
+    "cca2": "EE",
+    "capital": [
+      "Tallinn"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "LVA",
+      "RUS"
+    ],
+    "area": 45227,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "est"
+    ]
+  },
+  {
+    "cca3": "ETH",
+    "cca2": "ET",
+    "capital": [
+      "Addis Ababa"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "DJI",
+      "ERI",
+      "KEN",
+      "SOM",
+      "SSD",
+      "SDN"
+    ],
+    "area": 1104300,
+    "currencies": [
+      "ETB"
+    ],
+    "languages": [
+      "amh"
+    ]
+  },
+  {
+    "cca3": "FIN",
+    "cca2": "FI",
+    "capital": [
+      "Helsinki"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "NOR",
+      "SWE",
+      "RUS"
+    ],
+    "area": 338424,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "fin",
+      "swe"
+    ]
+  },
+  {
+    "cca3": "FJI",
+    "cca2": "FJ",
+    "capital": [
+      "Suva"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "borders": [],
+    "area": 18272,
+    "currencies": [
+      "FJD"
+    ],
+    "languages": [
+      "eng",
+      "fij",
+      "hif"
+    ]
+  },
+  {
+    "cca3": "FRA",
+    "cca2": "FR",
+    "capital": [
+      "Paris"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "borders": [
+      "AND",
+      "BEL",
+      "DEU",
+      "ITA",
+      "LUX",
+      "MCO",
+      "ESP",
+      "CHE"
+    ],
+    "area": 551695,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "FSM",
+    "cca2": "FM",
+    "capital": [
+      "Palikir"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "borders": [],
+    "area": 702,
+    "currencies": [],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "GAB",
+    "cca2": "GA",
+    "capital": [
+      "Libreville"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "CMR",
+      "COG",
+      "GNQ"
+    ],
+    "area": 267668,
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "GBR",
+    "cca2": "GB",
+    "capital": [
+      "London"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "IRL"
+    ],
+    "area": 242900,
+    "currencies": [
+      "GBP"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "GEO",
+    "cca2": "GE",
+    "capital": [
+      "Tbilisi"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "ARM",
+      "AZE",
+      "RUS",
+      "TUR"
+    ],
+    "area": 69700,
+    "currencies": [
+      "GEL"
+    ],
+    "languages": [
+      "kat"
+    ]
+  },
+  {
+    "cca3": "GHA",
+    "cca2": "GH",
+    "capital": [
+      "Accra"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "BFA",
+      "CIV",
+      "TGO"
+    ],
+    "area": 238533,
+    "currencies": [
+      "GHS"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "GIN",
+    "cca2": "GN",
+    "capital": [
+      "Conakry"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "CIV",
+      "GNB",
+      "LBR",
+      "MLI",
+      "SEN",
+      "SLE"
+    ],
+    "area": 245857,
+    "currencies": [
+      "GNF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "GMB",
+    "cca2": "GM",
+    "capital": [
+      "Banjul"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "SEN"
+    ],
+    "area": 10689,
+    "currencies": [
+      "GMD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "GNB",
+    "cca2": "GW",
+    "capital": [
+      "Bissau"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "GIN",
+      "SEN"
+    ],
+    "area": 36125,
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "por",
+      "pov"
+    ]
+  },
+  {
+    "cca3": "GNQ",
+    "cca2": "GQ",
+    "capital": [
+      "Malabo"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "CMR",
+      "GAB"
+    ],
+    "area": 28051,
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "fra",
+      "por",
+      "spa"
+    ]
+  },
+  {
+    "cca3": "GRC",
+    "cca2": "GR",
+    "capital": [
+      "Athens"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [
+      "ALB",
+      "BGR",
+      "TUR",
+      "MKD"
+    ],
+    "area": 131990,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ell"
+    ]
+  },
+  {
+    "cca3": "GRD",
+    "cca2": "GD",
+    "capital": [
+      "St. George's"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 344,
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "GTM",
+    "cca2": "GT",
+    "capital": [
+      "Guatemala City"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "borders": [
+      "BLZ",
+      "SLV",
+      "HND",
+      "MEX"
+    ],
+    "area": 108889,
+    "currencies": [
+      "GTQ"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "GUY",
+    "cca2": "GY",
+    "capital": [
+      "Georgetown"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "BRA",
+      "SUR",
+      "VEN"
+    ],
+    "area": 214969,
+    "currencies": [
+      "GYD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "HND",
+    "cca2": "HN",
+    "capital": [
+      "Tegucigalpa"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "borders": [
+      "GTM",
+      "SLV",
+      "NIC"
+    ],
+    "area": 112492,
+    "currencies": [
+      "HNL"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "HRV",
+    "cca2": "HR",
+    "capital": [
+      "Zagreb"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "borders": [
+      "BIH",
+      "HUN",
+      "MNE",
+      "SRB",
+      "SVN"
+    ],
+    "area": 56594,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "hrv"
+    ]
+  },
+  {
+    "cca3": "HTI",
+    "cca2": "HT",
+    "capital": [
+      "Port-au-Prince"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [
+      "DOM"
+    ],
+    "area": 27750,
+    "currencies": [
+      "HTG"
+    ],
+    "languages": [
+      "fra",
+      "hat"
+    ]
+  },
+  {
+    "cca3": "HUN",
+    "cca2": "HU",
+    "capital": [
+      "Budapest"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "borders": [
+      "AUT",
+      "HRV",
+      "ROU",
+      "SRB",
+      "SVK",
+      "SVN",
+      "UKR"
+    ],
+    "area": 93028,
+    "currencies": [
+      "HUF"
+    ],
+    "languages": [
+      "hun"
+    ]
+  },
+  {
+    "cca3": "IDN",
+    "cca2": "ID",
+    "capital": [
+      "Jakarta"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "TLS",
+      "MYS",
+      "PNG"
+    ],
+    "area": 1904569,
+    "currencies": [
+      "IDR"
+    ],
+    "languages": [
+      "ind"
+    ]
+  },
+  {
+    "cca3": "IND",
+    "cca2": "IN",
+    "capital": [
+      "New Delhi"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [
+      "BGD",
+      "BTN",
+      "MMR",
+      "CHN",
+      "NPL",
+      "PAK"
+    ],
+    "area": 3287590,
+    "currencies": [
+      "INR"
+    ],
+    "languages": [
+      "eng",
+      "hin",
+      "tam"
+    ]
+  },
+  {
+    "cca3": "IRL",
+    "cca2": "IE",
+    "capital": [
+      "Dublin"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "GBR"
+    ],
+    "area": 70273,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "eng",
+      "gle"
+    ]
+  },
+  {
+    "cca3": "IRN",
+    "cca2": "IR",
+    "capital": [
+      "Tehran"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [
+      "AFG",
+      "ARM",
+      "AZE",
+      "IRQ",
+      "PAK",
+      "TUR",
+      "TKM"
+    ],
+    "area": 1648195,
+    "currencies": [
+      "IRR"
+    ],
+    "languages": [
+      "fas"
+    ]
+  },
+  {
+    "cca3": "IRQ",
+    "cca2": "IQ",
+    "capital": [
+      "Baghdad"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "IRN",
+      "JOR",
+      "KWT",
+      "SAU",
+      "SYR",
+      "TUR"
+    ],
+    "area": 438317,
+    "currencies": [
+      "IQD"
+    ],
+    "languages": [
+      "ara",
+      "arc",
+      "ckb"
+    ]
+  },
+  {
+    "cca3": "ISL",
+    "cca2": "IS",
+    "capital": [
+      "Reykjavik"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [],
+    "area": 103000,
+    "currencies": [
+      "ISK"
+    ],
+    "languages": [
+      "isl"
+    ]
+  },
+  {
+    "cca3": "ISR",
+    "cca2": "IL",
+    "capital": [
+      "Jerusalem"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "EGY",
+      "JOR",
+      "LBN",
+      "SYR"
+    ],
+    "area": 20770,
+    "currencies": [
+      "ILS"
+    ],
+    "languages": [
+      "ara",
+      "heb"
+    ]
+  },
+  {
+    "cca3": "ITA",
+    "cca2": "IT",
+    "capital": [
+      "Rome"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [
+      "AUT",
+      "FRA",
+      "SMR",
+      "SVN",
+      "CHE",
+      "VAT"
+    ],
+    "area": 301336,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ita"
+    ]
+  },
+  {
+    "cca3": "JAM",
+    "cca2": "JM",
+    "capital": [
+      "Kingston"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 10991,
+    "currencies": [
+      "JMD"
+    ],
+    "languages": [
+      "eng",
+      "jam"
+    ]
+  },
+  {
+    "cca3": "JOR",
+    "cca2": "JO",
+    "capital": [
+      "Amman"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "IRQ",
+      "ISR",
+      "SAU",
+      "SYR"
+    ],
+    "area": 89342,
+    "currencies": [
+      "JOD"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "JPN",
+    "cca2": "JP",
+    "capital": [
+      "Tokyo"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "borders": [],
+    "area": 377930,
+    "currencies": [
+      "JPY"
+    ],
+    "languages": [
+      "jpn"
+    ]
+  },
+  {
+    "cca3": "KAZ",
+    "cca2": "KZ",
+    "capital": [
+      "Astana"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "borders": [
+      "CHN",
+      "KGZ",
+      "RUS",
+      "TKM",
+      "UZB"
+    ],
+    "area": 2724900,
+    "currencies": [
+      "KZT"
+    ],
+    "languages": [
+      "kaz",
+      "rus"
+    ]
+  },
+  {
+    "cca3": "KEN",
+    "cca2": "KE",
+    "capital": [
+      "Nairobi"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "ETH",
+      "SOM",
+      "SSD",
+      "TZA",
+      "UGA"
+    ],
+    "area": 580367,
+    "currencies": [
+      "KES"
+    ],
+    "languages": [
+      "eng",
+      "swa"
+    ]
+  },
+  {
+    "cca3": "KGZ",
+    "cca2": "KG",
+    "capital": [
+      "Bishkek"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "borders": [
+      "CHN",
+      "KAZ",
+      "TJK",
+      "UZB"
+    ],
+    "area": 199951,
+    "currencies": [
+      "KGS"
+    ],
+    "languages": [
+      "kir",
+      "rus"
+    ]
+  },
+  {
+    "cca3": "KHM",
+    "cca2": "KH",
+    "capital": [
+      "Phnom Penh"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "LAO",
+      "THA",
+      "VNM"
+    ],
+    "area": 181035,
+    "currencies": [
+      "KHR",
+      "USD"
+    ],
+    "languages": [
+      "khm"
+    ]
+  },
+  {
+    "cca3": "KIR",
+    "cca2": "KI",
+    "capital": [
+      "South Tarawa"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "borders": [],
+    "area": 811,
+    "currencies": [
+      "AUD",
+      "KID"
+    ],
+    "languages": [
+      "eng",
+      "gil"
+    ]
+  },
+  {
+    "cca3": "KNA",
+    "cca2": "KN",
+    "capital": [
+      "Basseterre"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 261,
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "KOR",
+    "cca2": "KR",
+    "capital": [
+      "Seoul"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "borders": [
+      "PRK"
+    ],
+    "area": 100210,
+    "currencies": [
+      "KRW"
+    ],
+    "languages": [
+      "kor"
+    ]
+  },
+  {
+    "cca3": "KWT",
+    "cca2": "KW",
+    "capital": [
+      "Kuwait City"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "IRQ",
+      "SAU"
+    ],
+    "area": 17818,
+    "currencies": [
+      "KWD"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "LAO",
+    "cca2": "LA",
+    "capital": [
+      "Vientiane"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "MMR",
+      "KHM",
+      "CHN",
+      "THA",
+      "VNM"
+    ],
+    "area": 236800,
+    "currencies": [
+      "LAK"
+    ],
+    "languages": [
+      "lao"
+    ]
+  },
+  {
+    "cca3": "LBN",
+    "cca2": "LB",
+    "capital": [
+      "Beirut"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "ISR",
+      "SYR"
+    ],
+    "area": 10452,
+    "currencies": [
+      "LBP"
+    ],
+    "languages": [
+      "ara",
+      "fra"
+    ]
+  },
+  {
+    "cca3": "LBR",
+    "cca2": "LR",
+    "capital": [
+      "Monrovia"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "GIN",
+      "CIV",
+      "SLE"
+    ],
+    "area": 111369,
+    "currencies": [
+      "LRD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "LBY",
+    "cca2": "LY",
+    "capital": [
+      "Tripoli"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "borders": [
+      "DZA",
+      "TCD",
+      "EGY",
+      "NER",
+      "SDN",
+      "TUN"
+    ],
+    "area": 1759540,
+    "currencies": [
+      "LYD"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "LCA",
+    "cca2": "LC",
+    "capital": [
+      "Castries"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 616,
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "LIE",
+    "cca2": "LI",
+    "capital": [
+      "Vaduz"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "borders": [
+      "AUT",
+      "CHE"
+    ],
+    "area": 160,
+    "currencies": [
+      "CHF"
+    ],
+    "languages": [
+      "deu"
+    ]
+  },
+  {
+    "cca3": "LKA",
+    "cca2": "LK",
+    "capital": [
+      "Colombo"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [
+      "IND"
+    ],
+    "area": 65610,
+    "currencies": [
+      "LKR"
+    ],
+    "languages": [
+      "sin",
+      "tam"
+    ]
+  },
+  {
+    "cca3": "LSO",
+    "cca2": "LS",
+    "capital": [
+      "Maseru"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "borders": [
+      "ZAF"
+    ],
+    "area": 30355,
+    "currencies": [
+      "LSL",
+      "ZAR"
+    ],
+    "languages": [
+      "eng",
+      "sot"
+    ]
+  },
+  {
+    "cca3": "LTU",
+    "cca2": "LT",
+    "capital": [
+      "Vilnius"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "BLR",
+      "LVA",
+      "POL",
+      "RUS"
+    ],
+    "area": 65300,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "lit"
+    ]
+  },
+  {
+    "cca3": "LUX",
+    "cca2": "LU",
+    "capital": [
+      "Luxembourg"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "borders": [
+      "BEL",
+      "FRA",
+      "DEU"
+    ],
+    "area": 2586,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "deu",
+      "fra",
+      "ltz"
+    ]
+  },
+  {
+    "cca3": "LVA",
+    "cca2": "LV",
+    "capital": [
+      "Riga"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "BLR",
+      "EST",
+      "LTU",
+      "RUS"
+    ],
+    "area": 64559,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "lav"
+    ]
+  },
+  {
+    "cca3": "MAR",
+    "cca2": "MA",
+    "capital": [
+      "Rabat"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "borders": [
+      "DZA",
+      "ESP"
+    ],
+    "area": 446550,
+    "currencies": [
+      "MAD"
+    ],
+    "languages": [
+      "ara",
+      "ber"
+    ]
+  },
+  {
+    "cca3": "MCO",
+    "cca2": "MC",
+    "capital": [
+      "Monaco"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "borders": [
+      "FRA"
+    ],
+    "area": 2.02,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "MDA",
+    "cca2": "MD",
+    "capital": [
+      "Chișinău"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "borders": [
+      "ROU",
+      "UKR"
+    ],
+    "area": 33846,
+    "currencies": [
+      "MDL"
+    ],
+    "languages": [
+      "ron"
+    ]
+  },
+  {
+    "cca3": "MDG",
+    "cca2": "MG",
+    "capital": [
+      "Antananarivo"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [],
+    "area": 587041,
+    "currencies": [
+      "MGA"
+    ],
+    "languages": [
+      "fra",
+      "mlg"
+    ]
+  },
+  {
+    "cca3": "MDV",
+    "cca2": "MV",
+    "capital": [
+      "Malé"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [],
+    "area": 300,
+    "currencies": [
+      "MVR"
+    ],
+    "languages": [
+      "div"
+    ]
+  },
+  {
+    "cca3": "MEX",
+    "cca2": "MX",
+    "capital": [
+      "Mexico City"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "borders": [
+      "BLZ",
+      "GTM",
+      "USA"
+    ],
+    "area": 1964375,
+    "currencies": [
+      "MXN"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "MHL",
+    "cca2": "MH",
+    "capital": [
+      "Majuro"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "borders": [],
+    "area": 181,
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "eng",
+      "mah"
+    ]
+  },
+  {
+    "cca3": "MKD",
+    "cca2": "MK",
+    "capital": [
+      "Skopje"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "borders": [
+      "ALB",
+      "BGR",
+      "GRC",
+      "SRB"
+    ],
+    "area": 25713,
+    "currencies": [
+      "MKD"
+    ],
+    "languages": [
+      "mkd"
+    ]
+  },
+  {
+    "cca3": "MLI",
+    "cca2": "ML",
+    "capital": [
+      "Bamako"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "DZA",
+      "BFA",
+      "GIN",
+      "CIV",
+      "MRT",
+      "NER",
+      "SEN"
+    ],
+    "area": 1240192,
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "MLT",
+    "cca2": "MT",
+    "capital": [
+      "Valletta"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [],
+    "area": 316,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "eng",
+      "mlt"
+    ]
+  },
+  {
+    "cca3": "MMR",
+    "cca2": "MM",
+    "capital": [
+      "Naypyidaw"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "BGD",
+      "CHN",
+      "IND",
+      "LAO",
+      "THA"
+    ],
+    "area": 676578,
+    "currencies": [
+      "MMK"
+    ],
+    "languages": [
+      "mya"
+    ]
+  },
+  {
+    "cca3": "MNE",
+    "cca2": "ME",
+    "capital": [
+      "Podgorica"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "borders": [
+      "ALB",
+      "BIH",
+      "HRV",
+      "SRB"
+    ],
+    "area": 13812,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "cnr"
+    ]
+  },
+  {
+    "cca3": "MNG",
+    "cca2": "MN",
+    "capital": [
+      "Ulan Bator"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "borders": [
+      "CHN",
+      "RUS"
+    ],
+    "area": 1564110,
+    "currencies": [
+      "MNT"
+    ],
+    "languages": [
+      "mon"
+    ]
+  },
+  {
+    "cca3": "MOZ",
+    "cca2": "MZ",
+    "capital": [
+      "Maputo"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "MWI",
+      "ZAF",
+      "SWZ",
+      "TZA",
+      "ZMB",
+      "ZWE"
+    ],
+    "area": 801590,
+    "currencies": [
+      "MZN"
+    ],
+    "languages": [
+      "por"
+    ]
+  },
+  {
+    "cca3": "MRT",
+    "cca2": "MR",
+    "capital": [
+      "Nouakchott"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "DZA",
+      "MLI",
+      "SEN"
+    ],
+    "area": 1030700,
+    "currencies": [
+      "MRU"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "MUS",
+    "cca2": "MU",
+    "capital": [
+      "Port Louis"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [],
+    "area": 2040,
+    "currencies": [
+      "MUR"
+    ],
+    "languages": [
+      "eng",
+      "fra",
+      "mfe"
+    ]
+  },
+  {
+    "cca3": "MWI",
+    "cca2": "MW",
+    "capital": [
+      "Lilongwe"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "MOZ",
+      "TZA",
+      "ZMB"
+    ],
+    "area": 118484,
+    "currencies": [
+      "MWK"
+    ],
+    "languages": [
+      "eng",
+      "nya"
+    ]
+  },
+  {
+    "cca3": "MYS",
+    "cca2": "MY",
+    "capital": [
+      "Kuala Lumpur"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "BRN",
+      "IDN",
+      "THA"
+    ],
+    "area": 330803,
+    "currencies": [
+      "MYR"
+    ],
+    "languages": [
+      "eng",
+      "msa"
+    ]
+  },
+  {
+    "cca3": "NAM",
+    "cca2": "NA",
+    "capital": [
+      "Windhoek"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "borders": [
+      "AGO",
+      "BWA",
+      "ZAF",
+      "ZMB"
+    ],
+    "area": 825615,
+    "currencies": [
+      "NAD",
+      "ZAR"
+    ],
+    "languages": [
+      "afr",
+      "deu",
+      "eng",
+      "her",
+      "hgm",
+      "kwn",
+      "loz",
+      "ndo",
+      "tsn"
+    ]
+  },
+  {
+    "cca3": "NER",
+    "cca2": "NE",
+    "capital": [
+      "Niamey"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "DZA",
+      "BEN",
+      "BFA",
+      "TCD",
+      "LBY",
+      "MLI",
+      "NGA"
+    ],
+    "area": 1267000,
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "NGA",
+    "cca2": "NG",
+    "capital": [
+      "Abuja"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "BEN",
+      "CMR",
+      "TCD",
+      "NER"
+    ],
+    "area": 923768,
+    "currencies": [
+      "NGN"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "NIC",
+    "cca2": "NI",
+    "capital": [
+      "Managua"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "borders": [
+      "CRI",
+      "HND"
+    ],
+    "area": 130373,
+    "currencies": [
+      "NIO"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "NLD",
+    "cca2": "NL",
+    "capital": [
+      "Amsterdam"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "borders": [
+      "BEL",
+      "DEU"
+    ],
+    "area": 41850,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "nld"
+    ]
+  },
+  {
+    "cca3": "NOR",
+    "cca2": "NO",
+    "capital": [
+      "Oslo"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "FIN",
+      "SWE",
+      "RUS"
+    ],
+    "area": 323802,
+    "currencies": [
+      "NOK"
+    ],
+    "languages": [
+      "nno",
+      "nob",
+      "smi"
+    ]
+  },
+  {
+    "cca3": "NPL",
+    "cca2": "NP",
+    "capital": [
+      "Kathmandu"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [
+      "CHN",
+      "IND"
+    ],
+    "area": 147181,
+    "currencies": [
+      "NPR"
+    ],
+    "languages": [
+      "nep"
+    ]
+  },
+  {
+    "cca3": "NRU",
+    "cca2": "NR",
+    "capital": [
+      "Yaren"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "borders": [],
+    "area": 21,
+    "currencies": [
+      "AUD"
+    ],
+    "languages": [
+      "eng",
+      "nau"
+    ]
+  },
+  {
+    "cca3": "NZL",
+    "cca2": "NZ",
+    "capital": [
+      "Wellington"
+    ],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "borders": [],
+    "area": 270467,
+    "currencies": [
+      "NZD"
+    ],
+    "languages": [
+      "eng",
+      "mri",
+      "nzs"
+    ]
+  },
+  {
+    "cca3": "OMN",
+    "cca2": "OM",
+    "capital": [
+      "Muscat"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "SAU",
+      "ARE",
+      "YEM"
+    ],
+    "area": 309500,
+    "currencies": [
+      "OMR"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "PAK",
+    "cca2": "PK",
+    "capital": [
+      "Islamabad"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "borders": [
+      "AFG",
+      "CHN",
+      "IND",
+      "IRN"
+    ],
+    "area": 881912,
+    "currencies": [
+      "PKR"
+    ],
+    "languages": [
+      "eng",
+      "urd"
+    ]
+  },
+  {
+    "cca3": "PAN",
+    "cca2": "PA",
+    "capital": [
+      "Panama City"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "borders": [
+      "COL",
+      "CRI"
+    ],
+    "area": 75417,
+    "currencies": [
+      "PAB",
+      "USD"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "PER",
+    "cca2": "PE",
+    "capital": [
+      "Lima"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "COL",
+      "ECU"
+    ],
+    "area": 1285216,
+    "currencies": [
+      "PEN"
+    ],
+    "languages": [
+      "aym",
+      "que",
+      "spa"
+    ]
+  },
+  {
+    "cca3": "PHL",
+    "cca2": "PH",
+    "capital": [
+      "Manila"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [],
+    "area": 342353,
+    "currencies": [
+      "PHP"
+    ],
+    "languages": [
+      "eng",
+      "fil"
+    ]
+  },
+  {
+    "cca3": "PLW",
+    "cca2": "PW",
+    "capital": [
+      "Ngerulmud"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "borders": [],
+    "area": 459,
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "eng",
+      "pau"
+    ]
+  },
+  {
+    "cca3": "PNG",
+    "cca2": "PG",
+    "capital": [
+      "Port Moresby"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "borders": [
+      "IDN"
+    ],
+    "area": 462840,
+    "currencies": [
+      "PGK"
+    ],
+    "languages": [
+      "eng",
+      "hmo",
+      "tpi"
+    ]
+  },
+  {
+    "cca3": "POL",
+    "cca2": "PL",
+    "capital": [
+      "Warsaw"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "borders": [
+      "BLR",
+      "CZE",
+      "DEU",
+      "LTU",
+      "RUS",
+      "SVK",
+      "UKR"
+    ],
+    "area": 312679,
+    "currencies": [
+      "PLN"
+    ],
+    "languages": [
+      "pol"
+    ]
+  },
+  {
+    "cca3": "PRK",
+    "cca2": "KP",
+    "capital": [
+      "Pyongyang"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "borders": [
+      "CHN",
+      "KOR",
+      "RUS"
+    ],
+    "area": 120538,
+    "currencies": [
+      "KPW"
+    ],
+    "languages": [
+      "kor"
+    ]
+  },
+  {
+    "cca3": "PRT",
+    "cca2": "PT",
+    "capital": [
+      "Lisbon"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [
+      "ESP"
+    ],
+    "area": 92090,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "por"
+    ]
+  },
+  {
+    "cca3": "PRY",
+    "cca2": "PY",
+    "capital": [
+      "Asunción"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "ARG",
+      "BOL",
+      "BRA"
+    ],
+    "area": 406752,
+    "currencies": [
+      "PYG"
+    ],
+    "languages": [
+      "grn",
+      "spa"
+    ]
+  },
+  {
+    "cca3": "QAT",
+    "cca2": "QA",
+    "capital": [
+      "Doha"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "SAU"
+    ],
+    "area": 11586,
+    "currencies": [
+      "QAR"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "ROU",
+    "cca2": "RO",
+    "capital": [
+      "Bucharest"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "borders": [
+      "BGR",
+      "HUN",
+      "MDA",
+      "SRB",
+      "UKR"
+    ],
+    "area": 238391,
+    "currencies": [
+      "RON"
+    ],
+    "languages": [
+      "ron"
+    ]
+  },
+  {
+    "cca3": "RUS",
+    "cca2": "RU",
+    "capital": [
+      "Moscow"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "borders": [
+      "AZE",
+      "BLR",
+      "CHN",
+      "EST",
+      "FIN",
+      "GEO",
+      "KAZ",
+      "PRK",
+      "LVA",
+      "LTU",
+      "MNG",
+      "NOR",
+      "POL",
+      "UKR"
+    ],
+    "area": 17098242,
+    "currencies": [
+      "RUB"
+    ],
+    "languages": [
+      "rus"
+    ]
+  },
+  {
+    "cca3": "RWA",
+    "cca2": "RW",
+    "capital": [
+      "Kigali"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "BDI",
+      "COD",
+      "TZA",
+      "UGA"
+    ],
+    "area": 26338,
+    "currencies": [
+      "RWF"
+    ],
+    "languages": [
+      "eng",
+      "fra",
+      "kin"
+    ]
+  },
+  {
+    "cca3": "SAU",
+    "cca2": "SA",
+    "capital": [
+      "Riyadh"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "IRQ",
+      "JOR",
+      "KWT",
+      "OMN",
+      "QAT",
+      "ARE",
+      "YEM"
+    ],
+    "area": 2149690,
+    "currencies": [
+      "SAR"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "SDN",
+    "cca2": "SD",
+    "capital": [
+      "Khartoum"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "borders": [
+      "CAF",
+      "TCD",
+      "EGY",
+      "ERI",
+      "ETH",
+      "LBY",
+      "SSD"
+    ],
+    "area": 1886068,
+    "currencies": [
+      "SDG"
+    ],
+    "languages": [
+      "ara",
+      "eng"
+    ]
+  },
+  {
+    "cca3": "SEN",
+    "cca2": "SN",
+    "capital": [
+      "Dakar"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "GMB",
+      "GIN",
+      "GNB",
+      "MLI",
+      "MRT"
+    ],
+    "area": 196722,
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "SGP",
+    "cca2": "SG",
+    "capital": [
+      "Singapore"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [],
+    "area": 710,
+    "currencies": [
+      "SGD"
+    ],
+    "languages": [
+      "eng",
+      "msa",
+      "tam",
+      "zho"
+    ]
+  },
+  {
+    "cca3": "SLB",
+    "cca2": "SB",
+    "capital": [
+      "Honiara"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "borders": [],
+    "area": 28896,
+    "currencies": [
+      "SBD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "SLE",
+    "cca2": "SL",
+    "capital": [
+      "Freetown"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "GIN",
+      "LBR"
+    ],
+    "area": 71740,
+    "currencies": [
+      "SLE"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "SLV",
+    "cca2": "SV",
+    "capital": [
+      "San Salvador"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "borders": [
+      "GTM",
+      "HND"
+    ],
+    "area": 21041,
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "SMR",
+    "cca2": "SM",
+    "capital": [
+      "City of San Marino"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [
+      "ITA"
+    ],
+    "area": 61,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ita"
+    ]
+  },
+  {
+    "cca3": "SOM",
+    "cca2": "SO",
+    "capital": [
+      "Mogadishu"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "DJI",
+      "ETH",
+      "KEN"
+    ],
+    "area": 637657,
+    "currencies": [
+      "SOS"
+    ],
+    "languages": [
+      "ara",
+      "som"
+    ]
+  },
+  {
+    "cca3": "SRB",
+    "cca2": "RS",
+    "capital": [
+      "Belgrade"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "borders": [
+      "BIH",
+      "BGR",
+      "HRV",
+      "HUN",
+      "MKD",
+      "MNE",
+      "ROU"
+    ],
+    "area": 88361,
+    "currencies": [
+      "RSD"
+    ],
+    "languages": [
+      "srp"
+    ]
+  },
+  {
+    "cca3": "SSD",
+    "cca2": "SS",
+    "capital": [
+      "Juba"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "CAF",
+      "COD",
+      "ETH",
+      "KEN",
+      "SDN",
+      "UGA"
+    ],
+    "area": 619745,
+    "currencies": [
+      "SSP"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "STP",
+    "cca2": "ST",
+    "capital": [
+      "São Tomé"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [],
+    "area": 964,
+    "currencies": [
+      "STN"
+    ],
+    "languages": [
+      "por"
+    ]
+  },
+  {
+    "cca3": "SUR",
+    "cca2": "SR",
+    "capital": [
+      "Paramaribo"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "BRA",
+      "GUY"
+    ],
+    "area": 163820,
+    "currencies": [
+      "SRD"
+    ],
+    "languages": [
+      "nld"
+    ]
+  },
+  {
+    "cca3": "SVK",
+    "cca2": "SK",
+    "capital": [
+      "Bratislava"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "borders": [
+      "AUT",
+      "CZE",
+      "HUN",
+      "POL",
+      "UKR"
+    ],
+    "area": 49037,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "slk"
+    ]
+  },
+  {
+    "cca3": "SVN",
+    "cca2": "SI",
+    "capital": [
+      "Ljubljana"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "borders": [
+      "AUT",
+      "HRV",
+      "ITA",
+      "HUN"
+    ],
+    "area": 20273,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "slv"
+    ]
+  },
+  {
+    "cca3": "SWE",
+    "cca2": "SE",
+    "capital": [
+      "Stockholm"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "borders": [
+      "FIN",
+      "NOR"
+    ],
+    "area": 450295,
+    "currencies": [
+      "SEK"
+    ],
+    "languages": [
+      "swe"
+    ]
+  },
+  {
+    "cca3": "SWZ",
+    "cca2": "SZ",
+    "capital": [
+      "Lobamba"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "borders": [
+      "MOZ",
+      "ZAF"
+    ],
+    "area": 17364,
+    "currencies": [
+      "SZL",
+      "ZAR"
+    ],
+    "languages": [
+      "eng",
+      "ssw"
+    ]
+  },
+  {
+    "cca3": "SYC",
+    "cca2": "SC",
+    "capital": [
+      "Victoria"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [],
+    "area": 452,
+    "currencies": [
+      "SCR"
+    ],
+    "languages": [
+      "crs",
+      "eng",
+      "fra"
+    ]
+  },
+  {
+    "cca3": "SYR",
+    "cca2": "SY",
+    "capital": [
+      "Damascus"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "IRQ",
+      "ISR",
+      "JOR",
+      "LBN",
+      "TUR"
+    ],
+    "area": 185180,
+    "currencies": [
+      "SYP"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "TCD",
+    "cca2": "TD",
+    "capital": [
+      "N'Djamena"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "borders": [
+      "CMR",
+      "CAF",
+      "LBY",
+      "NER",
+      "NGA",
+      "SDN"
+    ],
+    "area": 1284000,
+    "currencies": [
+      "XAF"
+    ],
+    "languages": [
+      "ara",
+      "fra"
+    ]
+  },
+  {
+    "cca3": "TGO",
+    "cca2": "TG",
+    "capital": [
+      "Lomé"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "borders": [
+      "BEN",
+      "BFA",
+      "GHA"
+    ],
+    "area": 56785,
+    "currencies": [
+      "XOF"
+    ],
+    "languages": [
+      "fra"
+    ]
+  },
+  {
+    "cca3": "THA",
+    "cca2": "TH",
+    "capital": [
+      "Bangkok"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "MMR",
+      "KHM",
+      "LAO",
+      "MYS"
+    ],
+    "area": 513120,
+    "currencies": [
+      "THB"
+    ],
+    "languages": [
+      "tha"
+    ]
+  },
+  {
+    "cca3": "TJK",
+    "cca2": "TJ",
+    "capital": [
+      "Dushanbe"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "borders": [
+      "AFG",
+      "CHN",
+      "KGZ",
+      "UZB"
+    ],
+    "area": 143100,
+    "currencies": [
+      "TJS"
+    ],
+    "languages": [
+      "rus",
+      "tgk"
+    ]
+  },
+  {
+    "cca3": "TKM",
+    "cca2": "TM",
+    "capital": [
+      "Ashgabat"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "borders": [
+      "AFG",
+      "IRN",
+      "KAZ",
+      "UZB"
+    ],
+    "area": 488100,
+    "currencies": [
+      "TMT"
+    ],
+    "languages": [
+      "rus",
+      "tuk"
+    ]
+  },
+  {
+    "cca3": "TLS",
+    "cca2": "TL",
+    "capital": [
+      "Dili"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "IDN"
+    ],
+    "area": 14874,
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "por",
+      "tet"
+    ]
+  },
+  {
+    "cca3": "TON",
+    "cca2": "TO",
+    "capital": [
+      "Nuku'alofa"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "borders": [],
+    "area": 747,
+    "currencies": [
+      "TOP"
+    ],
+    "languages": [
+      "eng",
+      "ton"
+    ]
+  },
+  {
+    "cca3": "TTO",
+    "cca2": "TT",
+    "capital": [
+      "Port of Spain"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 5130,
+    "currencies": [
+      "TTD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "TUN",
+    "cca2": "TN",
+    "capital": [
+      "Tunis"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "borders": [
+      "DZA",
+      "LBY"
+    ],
+    "area": 163610,
+    "currencies": [
+      "TND"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "TUR",
+    "cca2": "TR",
+    "capital": [
+      "Ankara"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "ARM",
+      "AZE",
+      "BGR",
+      "GEO",
+      "GRC",
+      "IRN",
+      "IRQ",
+      "SYR"
+    ],
+    "area": 783562,
+    "currencies": [
+      "TRY"
+    ],
+    "languages": [
+      "tur"
+    ]
+  },
+  {
+    "cca3": "TUV",
+    "cca2": "TV",
+    "capital": [
+      "Funafuti"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "borders": [],
+    "area": 26,
+    "currencies": [
+      "AUD",
+      "TVD"
+    ],
+    "languages": [
+      "eng",
+      "tvl"
+    ]
+  },
+  {
+    "cca3": "TZA",
+    "cca2": "TZ",
+    "capital": [
+      "Dodoma"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "BDI",
+      "COD",
+      "KEN",
+      "MWI",
+      "MOZ",
+      "RWA",
+      "UGA",
+      "ZMB"
+    ],
+    "area": 945087,
+    "currencies": [
+      "TZS"
+    ],
+    "languages": [
+      "eng",
+      "swa"
+    ]
+  },
+  {
+    "cca3": "UGA",
+    "cca2": "UG",
+    "capital": [
+      "Kampala"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "COD",
+      "KEN",
+      "RWA",
+      "SSD",
+      "TZA"
+    ],
+    "area": 241550,
+    "currencies": [
+      "UGX"
+    ],
+    "languages": [
+      "eng",
+      "swa"
+    ]
+  },
+  {
+    "cca3": "UKR",
+    "cca2": "UA",
+    "capital": [
+      "Kyiv"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "borders": [
+      "BLR",
+      "HUN",
+      "MDA",
+      "POL",
+      "ROU",
+      "RUS",
+      "SVK"
+    ],
+    "area": 603500,
+    "currencies": [
+      "UAH"
+    ],
+    "languages": [
+      "ukr"
+    ]
+  },
+  {
+    "cca3": "URY",
+    "cca2": "UY",
+    "capital": [
+      "Montevideo"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "ARG",
+      "BRA"
+    ],
+    "area": 181034,
+    "currencies": [
+      "UYU"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "USA",
+    "cca2": "US",
+    "capital": [
+      "Washington D.C."
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "borders": [
+      "CAN",
+      "MEX"
+    ],
+    "area": 9372610,
+    "currencies": [
+      "USD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "UZB",
+    "cca2": "UZ",
+    "capital": [
+      "Tashkent"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "borders": [
+      "AFG",
+      "KAZ",
+      "KGZ",
+      "TJK",
+      "TKM"
+    ],
+    "area": 447400,
+    "currencies": [
+      "UZS"
+    ],
+    "languages": [
+      "rus",
+      "uzb"
+    ]
+  },
+  {
+    "cca3": "VAT",
+    "cca2": "VA",
+    "capital": [
+      "Vatican City"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "borders": [
+      "ITA"
+    ],
+    "area": 0.44,
+    "currencies": [
+      "EUR"
+    ],
+    "languages": [
+      "ita",
+      "lat"
+    ]
+  },
+  {
+    "cca3": "VCT",
+    "cca2": "VC",
+    "capital": [
+      "Kingstown"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "borders": [],
+    "area": 389,
+    "currencies": [
+      "XCD"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "VEN",
+    "cca2": "VE",
+    "capital": [
+      "Caracas"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "borders": [
+      "BRA",
+      "COL",
+      "GUY"
+    ],
+    "area": 916445,
+    "currencies": [
+      "VES"
+    ],
+    "languages": [
+      "spa"
+    ]
+  },
+  {
+    "cca3": "VNM",
+    "cca2": "VN",
+    "capital": [
+      "Hanoi"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "borders": [
+      "KHM",
+      "CHN",
+      "LAO"
+    ],
+    "area": 331212,
+    "currencies": [
+      "VND"
+    ],
+    "languages": [
+      "vie"
+    ]
+  },
+  {
+    "cca3": "VUT",
+    "cca2": "VU",
+    "capital": [
+      "Port Vila"
+    ],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "borders": [],
+    "area": 12189,
+    "currencies": [
+      "VUV"
+    ],
+    "languages": [
+      "bis",
+      "eng",
+      "fra"
+    ]
+  },
+  {
+    "cca3": "WSM",
+    "cca2": "WS",
+    "capital": [
+      "Apia"
+    ],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "borders": [],
+    "area": 2842,
+    "currencies": [
+      "WST"
+    ],
+    "languages": [
+      "eng",
+      "smo"
+    ]
+  },
+  {
+    "cca3": "YEM",
+    "cca2": "YE",
+    "capital": [
+      "Sana'a"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "borders": [
+      "OMN",
+      "SAU"
+    ],
+    "area": 527968,
+    "currencies": [
+      "YER"
+    ],
+    "languages": [
+      "ara"
+    ]
+  },
+  {
+    "cca3": "ZAF",
+    "cca2": "ZA",
+    "capital": [
+      "Pretoria",
+      "Bloemfontein",
+      "Cape Town"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "borders": [
+      "BWA",
+      "LSO",
+      "MOZ",
+      "NAM",
+      "SWZ",
+      "ZWE"
+    ],
+    "area": 1221037,
+    "currencies": [
+      "ZAR"
+    ],
+    "languages": [
+      "afr",
+      "eng",
+      "nbl",
+      "nso",
+      "sot",
+      "ssw",
+      "tsn",
+      "tso",
+      "ven",
+      "xho",
+      "zul"
+    ]
+  },
+  {
+    "cca3": "ZMB",
+    "cca2": "ZM",
+    "capital": [
+      "Lusaka"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "AGO",
+      "BWA",
+      "COD",
+      "MWI",
+      "MOZ",
+      "NAM",
+      "TZA",
+      "ZWE"
+    ],
+    "area": 752612,
+    "currencies": [
+      "ZMW"
+    ],
+    "languages": [
+      "eng"
+    ]
+  },
+  {
+    "cca3": "ZWE",
+    "cca2": "ZW",
+    "capital": [
+      "Harare"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "borders": [
+      "BWA",
+      "MOZ",
+      "ZAF",
+      "ZMB"
+    ],
+    "area": 390757,
+    "currencies": [
+      "BWP",
+      "CNY",
+      "EUR",
+      "GBP",
+      "INR",
+      "JPY",
+      "USD",
+      "ZAR",
+      "ZWB"
+    ],
+    "languages": [
+      "bwg",
+      "eng",
+      "kck",
+      "khi",
+      "ndc",
+      "nde",
+      "nya",
+      "sna",
+      "sot",
+      "toi",
+      "tsn",
+      "tso",
+      "ven",
+      "xho",
+      "zib"
+    ]
+  }
+]

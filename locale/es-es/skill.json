@@ -1,0 +1,25 @@
+{
+  "skill_id": "ovos-skill-geography.andlo",
+  "source": "https://github.com/andlo/ovos-skill-geography",
+  "package_name": "ovos-skill-geography",
+  "pip_spec": "ovos-skill-geography",
+  "license": "GPL-3.0-or-later",
+  "author": "andlo",
+  "name": "Geografía",
+  "description": "Datos geográficos - capitales, continentes, fronteras, área, moneda e idioma de 194 estados miembros de la ONU. Totalmente sin conexión.",
+  "examples": [
+    "cuál es la capital de Francia",
+    "en qué continente está Kenia",
+    "qué países limitan con Alemania",
+    "qué tan grande es Brasil",
+    "qué moneda usa Japón",
+    "qué idioma se habla en Egipto"
+  ],
+  "tags": [
+    "geografía",
+    "referencia",
+    "capitales",
+    "países"
+  ],
+  "icon": "https://raw.githubusercontent.com/andlo/ovos-skill-geography/main/icon.png"
+}

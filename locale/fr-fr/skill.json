@@ -1,0 +1,25 @@
+{
+  "skill_id": "ovos-skill-geography.andlo",
+  "source": "https://github.com/andlo/ovos-skill-geography",
+  "package_name": "ovos-skill-geography",
+  "pip_spec": "ovos-skill-geography",
+  "license": "GPL-3.0-or-later",
+  "author": "andlo",
+  "name": "Géographie",
+  "description": "Faits géographiques - capitales, continents, frontières, superficie, monnaie et langue pour 194 États membres de l'ONU. Entièrement hors ligne.",
+  "examples": [
+    "quelle est la capitale de la France",
+    "sur quel continent se trouve le Kenya",
+    "quels pays bordent l'Allemagne",
+    "quelle est la taille du Brésil",
+    "quelle monnaie utilise le Japon",
+    "quelle langue parle-t-on en Égypte"
+  ],
+  "tags": [
+    "géographie",
+    "référence",
+    "capitales",
+    "pays"
+  ],
+  "icon": "https://raw.githubusercontent.com/andlo/ovos-skill-geography/main/icon.png"
+}

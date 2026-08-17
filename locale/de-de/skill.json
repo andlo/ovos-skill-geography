@@ -1,0 +1,25 @@
+{
+  "skill_id": "ovos-skill-geography.andlo",
+  "source": "https://github.com/andlo/ovos-skill-geography",
+  "package_name": "ovos-skill-geography",
+  "pip_spec": "ovos-skill-geography",
+  "license": "GPL-3.0-or-later",
+  "author": "andlo",
+  "name": "Geografie",
+  "description": "Geografische Fakten - Hauptstädte, Kontinente, Grenzen, Fläche, Währung und Sprache für 194 UN-Mitgliedstaaten. Vollständig offline.",
+  "examples": [
+    "was ist die hauptstadt von Frankreich",
+    "auf welchem kontinent liegt Kenia",
+    "welche länder grenzen an Deutschland",
+    "wie groß ist Brasilien",
+    "welche währung hat Japan",
+    "welche sprache spricht man in Ägypten"
+  ],
+  "tags": [
+    "geografie",
+    "nachschlagewerk",
+    "hauptstädte",
+    "länder"
+  ],
+  "icon": "https://raw.githubusercontent.com/andlo/ovos-skill-geography/main/icon.png"
+}

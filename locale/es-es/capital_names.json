@@ -1,0 +1,1174 @@
+{
+  "_notes": [
+    "cca3 -> {primary: localized capital name, all: every capital this country has}.",
+    "PARTIAL / BEST-EFFORT: no CLDR-equivalent source exists for city names. 'primary' defaults to mledoze/countries' own spelling, overridden only for well-known cases curated by hand - not verified per-entry. Improving/correcting entries here is well suited to OVOS Translate."
+  ],
+  "capitals": {
+    "AFG": {
+      "all": [
+        "Kabul"
+      ],
+      "primary": "Kabul"
+    },
+    "AGO": {
+      "all": [
+        "Luanda"
+      ],
+      "primary": "Luanda"
+    },
+    "ALB": {
+      "all": [
+        "Tirana"
+      ],
+      "primary": "Tirana"
+    },
+    "AND": {
+      "all": [
+        "Andorra la Vella"
+      ],
+      "primary": "Andorra la Vella"
+    },
+    "ARE": {
+      "all": [
+        "Abu Dhabi"
+      ],
+      "primary": "Abu Dabi"
+    },
+    "ARG": {
+      "all": [
+        "Buenos Aires"
+      ],
+      "primary": "Buenos Aires"
+    },
+    "ARM": {
+      "all": [
+        "Yerevan"
+      ],
+      "primary": "Yerevan"
+    },
+    "ATG": {
+      "all": [
+        "Saint John's"
+      ],
+      "primary": "Saint John's"
+    },
+    "AUS": {
+      "all": [
+        "Canberra"
+      ],
+      "primary": "Canberra"
+    },
+    "AUT": {
+      "all": [
+        "Vienna"
+      ],
+      "primary": "Viena"
+    },
+    "AZE": {
+      "all": [
+        "Baku"
+      ],
+      "primary": "Baku"
+    },
+    "BDI": {
+      "all": [
+        "Gitega"
+      ],
+      "primary": "Gitega"
+    },
+    "BEL": {
+      "all": [
+        "Brussels"
+      ],
+      "primary": "Bruselas"
+    },
+    "BEN": {
+      "all": [
+        "Porto-Novo"
+      ],
+      "primary": "Porto-Novo"
+    },
+    "BFA": {
+      "all": [
+        "Ouagadougou"
+      ],
+      "primary": "Ouagadougou"
+    },
+    "BGD": {
+      "all": [
+        "Dhaka"
+      ],
+      "primary": "Dhaka"
+    },
+    "BGR": {
+      "all": [
+        "Sofia"
+      ],
+      "primary": "Sofía"
+    },
+    "BHR": {
+      "all": [
+        "Manama"
+      ],
+      "primary": "Manama"
+    },
+    "BHS": {
+      "all": [
+        "Nassau"
+      ],
+      "primary": "Nassau"
+    },
+    "BIH": {
+      "all": [
+        "Sarajevo"
+      ],
+      "primary": "Sarajevo"
+    },
+    "BLR": {
+      "all": [
+        "Minsk"
+      ],
+      "primary": "Minsk"
+    },
+    "BLZ": {
+      "all": [
+        "Belmopan"
+      ],
+      "primary": "Belmopan"
+    },
+    "BOL": {
+      "all": [
+        "Sucre"
+      ],
+      "primary": "Sucre"
+    },
+    "BRA": {
+      "all": [
+        "Brasília"
+      ],
+      "primary": "Brasília"
+    },
+    "BRB": {
+      "all": [
+        "Bridgetown"
+      ],
+      "primary": "Bridgetown"
+    },
+    "BRN": {
+      "all": [
+        "Bandar Seri Begawan"
+      ],
+      "primary": "Bandar Seri Begawan"
+    },
+    "BTN": {
+      "all": [
+        "Thimphu"
+      ],
+      "primary": "Thimphu"
+    },
+    "BWA": {
+      "all": [
+        "Gaborone"
+      ],
+      "primary": "Gaborone"
+    },
+    "CAF": {
+      "all": [
+        "Bangui"
+      ],
+      "primary": "Bangui"
+    },
+    "CAN": {
+      "all": [
+        "Ottawa"
+      ],
+      "primary": "Ottawa"
+    },
+    "CHE": {
+      "all": [
+        "Bern"
+      ],
+      "primary": "Berna"
+    },
+    "CHL": {
+      "all": [
+        "Santiago"
+      ],
+      "primary": "Santiago"
+    },
+    "CHN": {
+      "all": [
+        "Beijing"
+      ],
+      "primary": "Pekín"
+    },
+    "CIV": {
+      "all": [
+        "Yamoussoukro"
+      ],
+      "primary": "Yamoussoukro"
+    },
+    "CMR": {
+      "all": [
+        "Yaoundé"
+      ],
+      "primary": "Yaoundé"
+    },
+    "COD": {
+      "all": [
+        "Kinshasa"
+      ],
+      "primary": "Kinshasa"
+    },
+    "COG": {
+      "all": [
+        "Brazzaville"
+      ],
+      "primary": "Brazzaville"
+    },
+    "COL": {
+      "all": [
+        "Bogotá"
+      ],
+      "primary": "Bogotá"
+    },
+    "COM": {
+      "all": [
+        "Moroni"
+      ],
+      "primary": "Moroni"
+    },
+    "CPV": {
+      "all": [
+        "Praia"
+      ],
+      "primary": "Praia"
+    },
+    "CRI": {
+      "all": [
+        "San José"
+      ],
+      "primary": "San José"
+    },
+    "CUB": {
+      "all": [
+        "Havana"
+      ],
+      "primary": "La Habana"
+    },
+    "CYP": {
+      "all": [
+        "Nicosia"
+      ],
+      "primary": "Nicosia"
+    },
+    "CZE": {
+      "all": [
+        "Prague"
+      ],
+      "primary": "Praga"
+    },
+    "DEU": {
+      "all": [
+        "Berlin"
+      ],
+      "primary": "Berlín"
+    },
+    "DJI": {
+      "all": [
+        "Djibouti"
+      ],
+      "primary": "Djibouti"
+    },
+    "DMA": {
+      "all": [
+        "Roseau"
+      ],
+      "primary": "Roseau"
+    },
+    "DNK": {
+      "all": [
+        "Copenhagen"
+      ],
+      "primary": "Copenhague"
+    },
+    "DOM": {
+      "all": [
+        "Santo Domingo"
+      ],
+      "primary": "Santo Domingo"
+    },
+    "DZA": {
+      "all": [
+        "Algiers"
+      ],
+      "primary": "Argel"
+    },
+    "ECU": {
+      "all": [
+        "Quito"
+      ],
+      "primary": "Quito"
+    },
+    "EGY": {
+      "all": [
+        "Cairo"
+      ],
+      "primary": "El Cairo"
+    },
+    "ERI": {
+      "all": [
+        "Asmara"
+      ],
+      "primary": "Asmara"
+    },
+    "ESP": {
+      "all": [
+        "Madrid"
+      ],
+      "primary": "Madrid"
+    },
+    "EST": {
+      "all": [
+        "Tallinn"
+      ],
+      "primary": "Tallinn"
+    },
+    "ETH": {
+      "all": [
+        "Addis Ababa"
+      ],
+      "primary": "Adís Abeba"
+    },
+    "FIN": {
+      "all": [
+        "Helsinki"
+      ],
+      "primary": "Helsinki"
+    },
+    "FJI": {
+      "all": [
+        "Suva"
+      ],
+      "primary": "Suva"
+    },
+    "FRA": {
+      "all": [
+        "Paris"
+      ],
+      "primary": "Paris"
+    },
+    "FSM": {
+      "all": [
+        "Palikir"
+      ],
+      "primary": "Palikir"
+    },
+    "GAB": {
+      "all": [
+        "Libreville"
+      ],
+      "primary": "Libreville"
+    },
+    "GBR": {
+      "all": [
+        "London"
+      ],
+      "primary": "Londres"
+    },
+    "GEO": {
+      "all": [
+        "Tbilisi"
+      ],
+      "primary": "Tbilisi"
+    },
+    "GHA": {
+      "all": [
+        "Accra"
+      ],
+      "primary": "Acra"
+    },
+    "GIN": {
+      "all": [
+        "Conakry"
+      ],
+      "primary": "Conakry"
+    },
+    "GMB": {
+      "all": [
+        "Banjul"
+      ],
+      "primary": "Banjul"
+    },
+    "GNB": {
+      "all": [
+        "Bissau"
+      ],
+      "primary": "Bissau"
+    },
+    "GNQ": {
+      "all": [
+        "Malabo"
+      ],
+      "primary": "Malabo"
+    },
+    "GRC": {
+      "all": [
+        "Athens"
+      ],
+      "primary": "Atenas"
+    },
+    "GRD": {
+      "all": [
+        "St. George's"
+      ],
+      "primary": "St. George's"
+    },
+    "GTM": {
+      "all": [
+        "Guatemala City"
+      ],
+      "primary": "Ciudad de Guatemala"
+    },
+    "GUY": {
+      "all": [
+        "Georgetown"
+      ],
+      "primary": "Georgetown"
+    },
+    "HND": {
+      "all": [
+        "Tegucigalpa"
+      ],
+      "primary": "Tegucigalpa"
+    },
+    "HRV": {
+      "all": [
+        "Zagreb"
+      ],
+      "primary": "Zagreb"
+    },
+    "HTI": {
+      "all": [
+        "Port-au-Prince"
+      ],
+      "primary": "Puerto Príncipe"
+    },
+    "HUN": {
+      "all": [
+        "Budapest"
+      ],
+      "primary": "Budapest"
+    },
+    "IDN": {
+      "all": [
+        "Jakarta"
+      ],
+      "primary": "Yakarta"
+    },
+    "IND": {
+      "all": [
+        "New Delhi"
+      ],
+      "primary": "Nueva Delhi"
+    },
+    "IRL": {
+      "all": [
+        "Dublin"
+      ],
+      "primary": "Dublin"
+    },
+    "IRN": {
+      "all": [
+        "Tehran"
+      ],
+      "primary": "Teherán"
+    },
+    "IRQ": {
+      "all": [
+        "Baghdad"
+      ],
+      "primary": "Bagdad"
+    },
+    "ISL": {
+      "all": [
+        "Reykjavik"
+      ],
+      "primary": "Reykjavik"
+    },
+    "ISR": {
+      "all": [
+        "Jerusalem"
+      ],
+      "primary": "Jerusalén"
+    },
+    "ITA": {
+      "all": [
+        "Rome"
+      ],
+      "primary": "Roma"
+    },
+    "JAM": {
+      "all": [
+        "Kingston"
+      ],
+      "primary": "Kingston"
+    },
+    "JOR": {
+      "all": [
+        "Amman"
+      ],
+      "primary": "Amman"
+    },
+    "JPN": {
+      "all": [
+        "Tokyo"
+      ],
+      "primary": "Tokio"
+    },
+    "KAZ": {
+      "all": [
+        "Astana"
+      ],
+      "primary": "Astana"
+    },
+    "KEN": {
+      "all": [
+        "Nairobi"
+      ],
+      "primary": "Nairobi"
+    },
+    "KGZ": {
+      "all": [
+        "Bishkek"
+      ],
+      "primary": "Bishkek"
+    },
+    "KHM": {
+      "all": [
+        "Phnom Penh"
+      ],
+      "primary": "Phnom Penh"
+    },
+    "KIR": {
+      "all": [
+        "South Tarawa"
+      ],
+      "primary": "South Tarawa"
+    },
+    "KNA": {
+      "all": [
+        "Basseterre"
+      ],
+      "primary": "Basseterre"
+    },
+    "KOR": {
+      "all": [
+        "Seoul"
+      ],
+      "primary": "Seúl"
+    },
+    "KWT": {
+      "all": [
+        "Kuwait City"
+      ],
+      "primary": "Kuwait City"
+    },
+    "LAO": {
+      "all": [
+        "Vientiane"
+      ],
+      "primary": "Vientiane"
+    },
+    "LBN": {
+      "all": [
+        "Beirut"
+      ],
+      "primary": "Beirut"
+    },
+    "LBR": {
+      "all": [
+        "Monrovia"
+      ],
+      "primary": "Monrovia"
+    },
+    "LBY": {
+      "all": [
+        "Tripoli"
+      ],
+      "primary": "Trípoli"
+    },
+    "LCA": {
+      "all": [
+        "Castries"
+      ],
+      "primary": "Castries"
+    },
+    "LIE": {
+      "all": [
+        "Vaduz"
+      ],
+      "primary": "Vaduz"
+    },
+    "LKA": {
+      "all": [
+        "Colombo"
+      ],
+      "primary": "Colombo"
+    },
+    "LSO": {
+      "all": [
+        "Maseru"
+      ],
+      "primary": "Maseru"
+    },
+    "LTU": {
+      "all": [
+        "Vilnius"
+      ],
+      "primary": "Vilnius"
+    },
+    "LUX": {
+      "all": [
+        "Luxembourg"
+      ],
+      "primary": "Luxembourg"
+    },
+    "LVA": {
+      "all": [
+        "Riga"
+      ],
+      "primary": "Riga"
+    },
+    "MAR": {
+      "all": [
+        "Rabat"
+      ],
+      "primary": "Rabat"
+    },
+    "MCO": {
+      "all": [
+        "Monaco"
+      ],
+      "primary": "Monaco"
+    },
+    "MDA": {
+      "all": [
+        "Chișinău"
+      ],
+      "primary": "Chișinău"
+    },
+    "MDG": {
+      "all": [
+        "Antananarivo"
+      ],
+      "primary": "Antananarivo"
+    },
+    "MDV": {
+      "all": [
+        "Malé"
+      ],
+      "primary": "Malé"
+    },
+    "MEX": {
+      "all": [
+        "Mexico City"
+      ],
+      "primary": "Ciudad de México"
+    },
+    "MHL": {
+      "all": [
+        "Majuro"
+      ],
+      "primary": "Majuro"
+    },
+    "MKD": {
+      "all": [
+        "Skopje"
+      ],
+      "primary": "Skopje"
+    },
+    "MLI": {
+      "all": [
+        "Bamako"
+      ],
+      "primary": "Bamako"
+    },
+    "MLT": {
+      "all": [
+        "Valletta"
+      ],
+      "primary": "Valletta"
+    },
+    "MMR": {
+      "all": [
+        "Naypyidaw"
+      ],
+      "primary": "Naypyidaw"
+    },
+    "MNE": {
+      "all": [
+        "Podgorica"
+      ],
+      "primary": "Podgorica"
+    },
+    "MNG": {
+      "all": [
+        "Ulan Bator"
+      ],
+      "primary": "Ulán Bator"
+    },
+    "MOZ": {
+      "all": [
+        "Maputo"
+      ],
+      "primary": "Maputo"
+    },
+    "MRT": {
+      "all": [
+        "Nouakchott"
+      ],
+      "primary": "Nouakchott"
+    },
+    "MUS": {
+      "all": [
+        "Port Louis"
+      ],
+      "primary": "Port Louis"
+    },
+    "MWI": {
+      "all": [
+        "Lilongwe"
+      ],
+      "primary": "Lilongwe"
+    },
+    "MYS": {
+      "all": [
+        "Kuala Lumpur"
+      ],
+      "primary": "Kuala Lumpur"
+    },
+    "NAM": {
+      "all": [
+        "Windhoek"
+      ],
+      "primary": "Windhoek"
+    },
+    "NER": {
+      "all": [
+        "Niamey"
+      ],
+      "primary": "Niamey"
+    },
+    "NGA": {
+      "all": [
+        "Abuja"
+      ],
+      "primary": "Abuya"
+    },
+    "NIC": {
+      "all": [
+        "Managua"
+      ],
+      "primary": "Managua"
+    },
+    "NLD": {
+      "all": [
+        "Amsterdam"
+      ],
+      "primary": "Ámsterdam"
+    },
+    "NOR": {
+      "all": [
+        "Oslo"
+      ],
+      "primary": "Oslo"
+    },
+    "NPL": {
+      "all": [
+        "Kathmandu"
+      ],
+      "primary": "Kathmandu"
+    },
+    "NRU": {
+      "all": [
+        "Yaren"
+      ],
+      "primary": "Yaren"
+    },
+    "NZL": {
+      "all": [
+        "Wellington"
+      ],
+      "primary": "Wellington"
+    },
+    "OMN": {
+      "all": [
+        "Muscat"
+      ],
+      "primary": "Muscat"
+    },
+    "PAK": {
+      "all": [
+        "Islamabad"
+      ],
+      "primary": "Islamabad"
+    },
+    "PAN": {
+      "all": [
+        "Panama City"
+      ],
+      "primary": "Ciudad de Panamá"
+    },
+    "PER": {
+      "all": [
+        "Lima"
+      ],
+      "primary": "Lima"
+    },
+    "PHL": {
+      "all": [
+        "Manila"
+      ],
+      "primary": "Manila"
+    },
+    "PLW": {
+      "all": [
+        "Ngerulmud"
+      ],
+      "primary": "Ngerulmud"
+    },
+    "PNG": {
+      "all": [
+        "Port Moresby"
+      ],
+      "primary": "Port Moresby"
+    },
+    "POL": {
+      "all": [
+        "Warsaw"
+      ],
+      "primary": "Varsovia"
+    },
+    "PRK": {
+      "all": [
+        "Pyongyang"
+      ],
+      "primary": "Pyongyang"
+    },
+    "PRT": {
+      "all": [
+        "Lisbon"
+      ],
+      "primary": "Lisboa"
+    },
+    "PRY": {
+      "all": [
+        "Asunción"
+      ],
+      "primary": "Asunción"
+    },
+    "QAT": {
+      "all": [
+        "Doha"
+      ],
+      "primary": "Doha"
+    },
+    "ROU": {
+      "all": [
+        "Bucharest"
+      ],
+      "primary": "Bucarest"
+    },
+    "RUS": {
+      "all": [
+        "Moscow"
+      ],
+      "primary": "Moscú"
+    },
+    "RWA": {
+      "all": [
+        "Kigali"
+      ],
+      "primary": "Kigali"
+    },
+    "SAU": {
+      "all": [
+        "Riyadh"
+      ],
+      "primary": "Riad"
+    },
+    "SDN": {
+      "all": [
+        "Khartoum"
+      ],
+      "primary": "Khartoum"
+    },
+    "SEN": {
+      "all": [
+        "Dakar"
+      ],
+      "primary": "Dakar"
+    },
+    "SGP": {
+      "all": [
+        "Singapore"
+      ],
+      "primary": "Singapur"
+    },
+    "SLB": {
+      "all": [
+        "Honiara"
+      ],
+      "primary": "Honiara"
+    },
+    "SLE": {
+      "all": [
+        "Freetown"
+      ],
+      "primary": "Freetown"
+    },
+    "SLV": {
+      "all": [
+        "San Salvador"
+      ],
+      "primary": "San Salvador"
+    },
+    "SMR": {
+      "all": [
+        "City of San Marino"
+      ],
+      "primary": "City of San Marino"
+    },
+    "SOM": {
+      "all": [
+        "Mogadishu"
+      ],
+      "primary": "Mogadishu"
+    },
+    "SRB": {
+      "all": [
+        "Belgrade"
+      ],
+      "primary": "Belgrado"
+    },
+    "SSD": {
+      "all": [
+        "Juba"
+      ],
+      "primary": "Juba"
+    },
+    "STP": {
+      "all": [
+        "São Tomé"
+      ],
+      "primary": "São Tomé"
+    },
+    "SUR": {
+      "all": [
+        "Paramaribo"
+      ],
+      "primary": "Paramaribo"
+    },
+    "SVK": {
+      "all": [
+        "Bratislava"
+      ],
+      "primary": "Bratislava"
+    },
+    "SVN": {
+      "all": [
+        "Ljubljana"
+      ],
+      "primary": "Ljubljana"
+    },
+    "SWE": {
+      "all": [
+        "Stockholm"
+      ],
+      "primary": "Estocolmo"
+    },
+    "SWZ": {
+      "all": [
+        "Lobamba"
+      ],
+      "primary": "Lobamba"
+    },
+    "SYC": {
+      "all": [
+        "Victoria"
+      ],
+      "primary": "Victoria"
+    },
+    "SYR": {
+      "all": [
+        "Damascus"
+      ],
+      "primary": "Damascus"
+    },
+    "TCD": {
+      "all": [
+        "N'Djamena"
+      ],
+      "primary": "N'Djamena"
+    },
+    "TGO": {
+      "all": [
+        "Lomé"
+      ],
+      "primary": "Lomé"
+    },
+    "THA": {
+      "all": [
+        "Bangkok"
+      ],
+      "primary": "Bangkok"
+    },
+    "TJK": {
+      "all": [
+        "Dushanbe"
+      ],
+      "primary": "Dushanbe"
+    },
+    "TKM": {
+      "all": [
+        "Ashgabat"
+      ],
+      "primary": "Ashgabat"
+    },
+    "TLS": {
+      "all": [
+        "Dili"
+      ],
+      "primary": "Dili"
+    },
+    "TON": {
+      "all": [
+        "Nuku'alofa"
+      ],
+      "primary": "Nuku'alofa"
+    },
+    "TTO": {
+      "all": [
+        "Port of Spain"
+      ],
+      "primary": "Port of Spain"
+    },
+    "TUN": {
+      "all": [
+        "Tunis"
+      ],
+      "primary": "Túnez"
+    },
+    "TUR": {
+      "all": [
+        "Ankara"
+      ],
+      "primary": "Ankara"
+    },
+    "TUV": {
+      "all": [
+        "Funafuti"
+      ],
+      "primary": "Funafuti"
+    },
+    "TZA": {
+      "all": [
+        "Dodoma"
+      ],
+      "primary": "Dodoma"
+    },
+    "UGA": {
+      "all": [
+        "Kampala"
+      ],
+      "primary": "Kampala"
+    },
+    "UKR": {
+      "all": [
+        "Kyiv"
+      ],
+      "primary": "Kiev"
+    },
+    "URY": {
+      "all": [
+        "Montevideo"
+      ],
+      "primary": "Montevideo"
+    },
+    "USA": {
+      "all": [
+        "Washington D.C."
+      ],
+      "primary": "Washington D. C."
+    },
+    "UZB": {
+      "all": [
+        "Tashkent"
+      ],
+      "primary": "Tashkent"
+    },
+    "VAT": {
+      "all": [
+        "Vatican City"
+      ],
+      "primary": "Vatican City"
+    },
+    "VCT": {
+      "all": [
+        "Kingstown"
+      ],
+      "primary": "Kingstown"
+    },
+    "VEN": {
+      "all": [
+        "Caracas"
+      ],
+      "primary": "Caracas"
+    },
+    "VNM": {
+      "all": [
+        "Hanoi"
+      ],
+      "primary": "Hanói"
+    },
+    "VUT": {
+      "all": [
+        "Port Vila"
+      ],
+      "primary": "Port Vila"
+    },
+    "WSM": {
+      "all": [
+        "Apia"
+      ],
+      "primary": "Apia"
+    },
+    "YEM": {
+      "all": [
+        "Sana'a"
+      ],
+      "primary": "Sana'a"
+    },
+    "ZAF": {
+      "all": [
+        "Pretoria",
+        "Bloemfontein",
+        "Cape Town"
+      ],
+      "primary": "Pretoria"
+    },
+    "ZMB": {
+      "all": [
+        "Lusaka"
+      ],
+      "primary": "Lusaka"
+    },
+    "ZWE": {
+      "all": [
+        "Harare"
+      ],
+      "primary": "Harare"
+    }
+  }
+}

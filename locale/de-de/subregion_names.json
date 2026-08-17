@@ -1,0 +1,29 @@
+{
+  "Australia and New Zealand": "Australien und Neuseeland",
+  "Caribbean": "die Karibik",
+  "Central America": "Mittelamerika",
+  "Central Asia": "Zentralasien",
+  "Central Europe": "Mitteleuropa",
+  "Eastern Africa": "Ostafrika",
+  "Eastern Asia": "Ostasien",
+  "Eastern Europe": "Osteuropa",
+  "Melanesia": "Melanesien",
+  "Micronesia": "Mikronesien",
+  "Middle Africa": "Mittelafrika",
+  "North America": "Nordamerika",
+  "Northern Africa": "Nordafrika",
+  "Northern Europe": "Nordeuropa",
+  "Polynesia": "Polynesien",
+  "South America": "Südamerika",
+  "South-Eastern Asia": "Südostasien",
+  "Southeast Europe": "Südosteuropa",
+  "Southern Africa": "Südliches Afrika",
+  "Southern Asia": "Südasien",
+  "Southern Europe": "Südeuropa",
+  "Western Africa": "Westafrika",
+  "Western Asia": "Westasien",
+  "Western Europe": "Westeuropa",
+  "_notes": [
+    "subregion name -> localized form. Hand-translated (only 23 subregions)."
+  ]
+}

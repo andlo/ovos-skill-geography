@@ -1,0 +1,25 @@
+{
+  "skill_id": "ovos-skill-geography.andlo",
+  "source": "https://github.com/andlo/ovos-skill-geography",
+  "package_name": "ovos-skill-geography",
+  "pip_spec": "ovos-skill-geography",
+  "license": "GPL-3.0-or-later",
+  "author": "andlo",
+  "name": "Geografi",
+  "description": "Geografiske fakta - hovedstæder, kontinenter, grænser, areal, valuta og sprog for 194 FN-medlemslande. Fuldstændig offline.",
+  "examples": [
+    "hvad er hovedstaden i Frankrig",
+    "hvilket kontinent er Kenya i",
+    "hvilke lande grænser op til Tyskland",
+    "hvor stort er Brasilien",
+    "hvilken valuta bruger Japan",
+    "hvilket sprog taler man i Egypten"
+  ],
+  "tags": [
+    "geografi",
+    "opslag",
+    "hovedstæder",
+    "lande"
+  ],
+  "icon": "https://raw.githubusercontent.com/andlo/ovos-skill-geography/main/icon.png"
+}

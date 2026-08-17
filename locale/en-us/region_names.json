@@ -1,0 +1,10 @@
+{
+  "Africa": "Africa",
+  "Americas": "the Americas",
+  "Asia": "Asia",
+  "Europe": "Europe",
+  "Oceania": "Oceania",
+  "_notes": [
+    "region name -> localized form. Hand-translated (only 5 regions)."
+  ]
+}
