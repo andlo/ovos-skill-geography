@@ -1,0 +1,13 @@
+{"utterance": "erzähl mir etwas über Dänemark", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "about_country"}
+{"utterance": "was weißt du über Frankreich", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "about_country"}
+{"utterance": "wie groß ist Japan", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "area_of"}
+{"utterance": "welche fläche hat Brasilien", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "area_of"}
+{"utterance": "welche länder grenzen an Kenia", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "borders_of"}
+{"utterance": "was ist die hauptstadt von Kanada", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "capital_of"}
+{"utterance": "wie heißt die hauptstadt von Deutschland", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "capital_of"}
+{"utterance": "auf welchem kontinent liegt Australien", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "continent_of"}
+{"utterance": "in welchem kontinent liegt Dänemark", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "continent_of"}
+{"utterance": "welche währung hat Frankreich", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "currency_of"}
+{"utterance": "welche währung wird in Japan verwendet", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "currency_of"}
+{"utterance": "welche sprache spricht man in Brasilien", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "language_of"}
+{"utterance": "welche sprache wird in Kenia gesprochen", "lang": "de-DE", "skill_id": "ovos-skill-geography.andlo", "intent_label": "language_of"}

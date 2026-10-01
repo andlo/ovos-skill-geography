@@ -1,0 +1,14 @@
+{"utterance": "fortæl mig om Danmark", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "about_country"}
+{"utterance": "hvad ved du om Frankrig", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "about_country"}
+{"utterance": "hvor stort er Japan", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "area_of"}
+{"utterance": "hvad er arealet af Brasilien", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "area_of"}
+{"utterance": "hvilke lande grænser op til Kenya", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "borders_of"}
+{"utterance": "hvilke lande grænser Canada op til", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "borders_of"}
+{"utterance": "hvad er hovedstaden i Tyskland", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "capital_of"}
+{"utterance": "hvad hedder hovedstaden i Australien", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "capital_of"}
+{"utterance": "hvilket kontinent er Danmark i", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "continent_of"}
+{"utterance": "hvilken verdensdel er Frankrig i", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "continent_of"}
+{"utterance": "hvilken valuta bruger Japan", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "currency_of"}
+{"utterance": "hvad er valutaen i Brasilien", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "currency_of"}
+{"utterance": "hvilket sprog taler man i Kenya", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "language_of"}
+{"utterance": "hvilket sprog tales i Canada", "lang": "da-DK", "skill_id": "ovos-skill-geography.andlo", "intent_label": "language_of"}
