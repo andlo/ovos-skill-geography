@@ -91,7 +91,7 @@ def test_language_of_unknown_country(skill):
 
 def test_about_country_known_country(skill):
     skill.speak_dialog = MagicMock()
-    skill.handle_about_country(_msg(country="France"))
+    skill.handle_about_country(_msg(Country="france"))   # Adapt hands over the vocabulary word
     dialog_name, data = skill.speak_dialog.call_args[0]
     assert dialog_name == "about_country"
     assert data["country"] == "France"
@@ -100,6 +100,19 @@ def test_about_country_known_country(skill):
 
 def test_about_country_unknown_country(skill):
     skill.speak_dialog = MagicMock()
-    skill.handle_about_country(_msg(country="Narnia"))
+    skill.handle_about_country(_msg(Country="Narnia"))
     skill.speak_dialog.assert_called_once_with(
         "country_not_understood", {"country": "Narnia"})
+
+
+def test_about_country_needs_a_known_country():
+    """"tell me about" is Adapt with a required Country (tools/make_vocab.py):
+    every country is in the vocabulary, and the old catch-all template is gone."""
+    from pathlib import Path
+    loc = Path(__file__).resolve().parents[1] / "locale"
+    for lang in ("en-us", "da-dk", "de-de", "es-es", "fr-fr"):
+        words = (loc / lang / "Country.voc").read_text(encoding="utf-8").split("\n")
+        assert len([w for w in words if w]) >= 195, lang
+        assert (loc / lang / "AboutCountry.voc").exists(), lang
+        assert not (loc / lang / "about_country.intent").exists(), lang
+    assert "frankrig" in (loc / "da-dk" / "Country.voc").read_text(encoding="utf-8")

@@ -49,6 +49,7 @@ from pathlib import Path
 
 from ovos_workshop.skills import OVOSSkill
 from ovos_workshop.decorators import intent_handler, common_query
+from ovos_workshop.intents import IntentBuilder
 
 SKILL_ROOT = Path(__file__).resolve().parent
 DATA_DIR = SKILL_ROOT / "data"
@@ -442,13 +443,19 @@ class Geography(OVOSSkill):
             return
         self.speak_dialog("language_of", {"country": name, "languages": ", ".join(languages)})
 
-    @intent_handler("about_country.intent")
+    @intent_handler(IntentBuilder("about_country").require("AboutCountry").require("Country"))
     def handle_about_country(self, message):
         """'tell me about France' - the combined continent+capital+
         borders overview, one sentence. Shares render_country_overview()
         with ovos-skill-geography-practice's teach mode rather than
-        each maintaining its own copy of the same sentence-builder."""
-        country_raw = message.data.get("country")
+        each maintaining its own copy of the same sentence-builder.
+
+        An Adapt intent that needs a known country (Country.voc, made from
+        country_names.json by tools/make_vocab.py): as a Padatious template,
+        "tell me about {country}" took anything, and "tell me about the
+        Eiffel Tower" got "I don't know a country called …" instead of
+        reaching Common Query."""
+        country_raw = message.data.get("Country")
         cca3 = resolve_country(country_raw, self.lang)
         if cca3 is None:
             self.speak_dialog("country_not_understood", {"country": country_raw or ""})
