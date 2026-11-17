@@ -33,7 +33,6 @@ cambodge
 cameroun
 canada
 cap-vert
-cca3 country code -> localized country name.
 chili
 chine
 chypre
@@ -50,7 +49,6 @@ côte d’ivoire
 danemark
 djibouti
 dominique
-en-us from mledoze/countries name.common; da-dk/de-de/fr-fr/es-es from unicode cldr territory names (via babel) - confirmed full coverage of all 194 countries.
 espagne
 estonie
 eswatini

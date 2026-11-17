@@ -35,7 +35,12 @@ for lang, phrases in PHRASES.items():
         source = LOCALE / "en-us" / "country_names.json"
     names = json.loads(source.read_text(encoding="utf-8"))
     words = []
-    for value in names.values():
+    # only the countries: keys are cca3 codes ("DNK"); "_comment" and the
+    # like are notes for people, and a line like "code -> name" is not a
+    # valid vocabulary line (ovos-workshop refuses the whole skill for it)
+    for key, value in names.items():
+        if not (len(key) == 3 and key.isalpha() and key.isupper()):
+            continue
         for name in (value if isinstance(value, list) else [value]):
             if name and name.lower() not in words:
                 words.append(name.lower())

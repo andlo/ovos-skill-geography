@@ -26,7 +26,6 @@ bulgarien
 burkina faso
 burundi
 cabo verde
-cca3 country code -> localized country name.
 chile
 china
 costa rica
@@ -38,7 +37,6 @@ dschibuti
 dänemark
 ecuador
 el salvador
-en-us from mledoze/countries name.common; da-dk/de-de/fr-fr/es-es from unicode cldr territory names (via babel) - confirmed full coverage of all 194 countries.
 eritrea
 estland
 eswatini
