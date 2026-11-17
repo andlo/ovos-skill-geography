@@ -185,8 +185,21 @@ of the tests before being caught and fixed).
 
 **`render_country_overview(cca3, lang)`** builds the combined
 "X is on the Y continent, with capital Z, and borders A, B, C"
-sentence used by both this package's own `about_country.intent` AND
+sentence used by both this package's own about_country intent (Adapt, see below) AND
 geography-practice's teach mode - one sentence-builder, not two
 independently-drifting copies. Returns `(dialog_name, data)` rather
 than speaking directly, since the two callers are different OVOSSkill
 instances with their own `speak_dialog()`.
+
+
+## "Tell me about" needs a known country (Adapt, not Padatious)
+
+`about_country` was a Padatious template, `tell me about {country}`, and
+took anything after "tell me about": "fortæl mig om Eiffeltårnet" got "I
+don't know a country called Eiffeltårnet", and the question never reached
+Common Query (Wikipedia, ovos-skill-wiki-offline). It is now an Adapt intent
+that requires a word from `Country.voc`, every name in `country_names.json`
+(written by `tools/make_vocab.py`, with the phrases in `AboutCountry.voc`).
+"Tell me about France" still matches; "tell me about the Eiffel Tower" goes
+on to Common Query. The other intents keep their Padatious templates: their
+phrasing ("what is the capital of …") is specific to countries already.
