@@ -162,7 +162,7 @@ setup on PyPI before the first tagged release).
 
 ## Style / conventions
 
-- License: GPL-3.0-or-later for the skill's own code. The bundled
+- License: Apache-2.0 for the skill's own code. The bundled
   dataset in `data/countries.json` is itself ODbL-1.0 - see
   CREDITS.md, a different license than the code around it.
 - `locale/<lang-code>/` layout, `skill.json` inside each locale

@@ -3,7 +3,7 @@
   "source": "https://github.com/andlo/ovos-skill-geography",
   "package_name": "ovos-skill-geography",
   "pip_spec": "ovos-skill-geography",
-  "license": "GPL-3.0-or-later",
+  "license": "Apache-2.0",
   "author": "andlo",
   "name": "Geografie",
   "description": "Geografische Fakten - Hauptstädte, Kontinente, Grenzen, Fläche, Währung und Sprache für 194 UN-Mitgliedstaaten. Vollständig offline.",

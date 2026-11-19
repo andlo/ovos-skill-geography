@@ -3,7 +3,7 @@
   "source": "https://github.com/andlo/ovos-skill-geography",
   "package_name": "ovos-skill-geography",
   "pip_spec": "ovos-skill-geography",
-  "license": "GPL-3.0-or-later",
+  "license": "Apache-2.0",
   "author": "andlo",
   "name": "Géographie",
   "description": "Faits géographiques - capitales, continents, frontières, superficie, monnaie et langue pour 194 États membres de l'ONU. Entièrement hors ligne.",

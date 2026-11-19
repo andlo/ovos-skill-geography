@@ -13,7 +13,7 @@ independent UN member states.
 Per the ODbL, this derivative attributes the source and is itself
 made available under ODbL-1.0 for `data/countries.json`, consistent
 with the ODbL's share-alike requirement. This does NOT extend to the
-skill's own code, which remains GPL-3.0-or-later per `LICENSE`.
+skill's own code, which remains Apache-2.0 per `LICENSE`.
 
 ## Country, currency, and language NAMES (localized)
 
